@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Wiesbaden Lunchfinder</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+  <script type="module" src="./src/main.ts"></script>
+  <main class="container">
+    <section>
+      <h1>Wiesbaden Lunchfinder</h1>
+      <select name="current-location" aria-label="Select your current location" required>
+        <option selected disabled value="">
+          Select your office
+        </option>
+        <!-- Location options will be populated dynamically from JavaScript -->
+      </select>
+    </section>
+
+    <section>
+      <h2>Lunch places near you</h2>
+      <div id="lunch-location-results">
+        <!-- Results will be populated here by JavaScript -->
+        <article aria-busy="true"></article>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

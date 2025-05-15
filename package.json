@@ -1,0 +1,27 @@
+{
+  "name": "techtalk-wiesbaden-slides",
+  "author": "Ansgar Hoyer",
+  "private": true,
+  "engines": {
+    "bun": ">=1.2"
+  },
+  "workspaces": [
+    "slides",
+    "demos/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.149",
+    "@types/bun": "latest",
+    "bunup": "^0.6.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "sst": "3.14.24"
+  },
+  "scripts": {
+    "dev:vanilla": "bun run demos/01-vanilla-js/index.html"
+  }
+}
