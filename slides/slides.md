@@ -1,639 +1,571 @@
----
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply unocss classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
----
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 
 ---
-transition: fade-out
+src: ./pages/introduction.md
 ---
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
 ---
-transition: slide-up
-level: 2
+src: ./pages/early-days.md
 ---
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
 ---
-layout: two-cols
-layoutClass: gap-16
+src: ./pages/ecmascript.md
 ---
 
-# Table of contents
 
-You can use the `Toc` component to generate a table of contents for your slides:
 
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
+---
+src: ./pages/renaissance.md
+---
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+---
+src: ./pages/transpilers.md
+---
+
+---
+src: ./pages/typescript.md
+---
+
+---
+src: ./pages/build-systems.md
+---
+
+---
+src: ./pages/demos.md#4-6
+---
+
+---
+src: ./pages/rendering.md
+---
+
+---
+src: ./pages/react.md
+---
+
+---
+src: ./pages/demos.md#7-9
+---
+
+# From Script Tags to Edge Functions
+
+How we unnecessarily complicated the web
+
+
+---
+layout: cover
+---
+
+# The Early Days of JavaScript
+
+---
+layout: two-cols-header
+---
+
+# JavaScript's Dual Origins
+
+::left::
+
+- **1995**: Netscape creates JavaScript (Brendan Eich)
+  - Created in just 10 days
+  - Originally named "Mocha", then "LiveScript"
 
 ::right::
 
-<Toc text-sm minDepth="1" maxDepth="2" />
+- **1996**: Microsoft releases JScript for Internet Explorer
+  - A reverse-engineered version of JavaScript
+  - Similar but with intentional differences
+
 
 ---
-layout: image-right
-image: https://cover.sli.dev
+layout: two-cols-header
 ---
 
-# Code
+# The Browser Wars
 
-Use code snippets and get the highlighting directly, and even types hover!
+::left::
 
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
+## Netscape Navigator
+- First commercial browser
+- JavaScript as a competitive feature
+- Dominant in early web
 
-import { computed, ref } from 'vue'
+::right::
 
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
+## Internet Explorer
+- Microsoft's answer
+- Bundled with Windows
+- JScript implementation
+- Eventually won with IE6
 
-doubled.value = 2
+---
+layout: center
+---
+
+
+*Different APIs, different behaviors, different bugs...*
+
+*Same code would work differently (or not at all) across browsers!*
+
+
+---
+layout: default
+---
+
+# Birth of ECMAScript
+
+- **1997**: JavaScript standardized as ECMAScript (ECMA-262)
+  - European Computer Manufacturers Association
+  - Netscape submitted JavaScript for standardization
+  - Goal: Create a vendor-neutral, cross-platform language standard
+
+- **Early versions**:
+  - ES1 (1997) - Initial standardization
+  - ES2 (1998) - Editorial changes
+  - ES3 (1999) - Regular expressions, try/catch, etc.
+  - ES4 - Abandoned after disagreements
+  - ES5 (2009) - JSON, strict mode, many improvements
+
+---
+layout: two-cols-header
+---
+
+# The Dark Ages (2000-2009)
+
+::left::
+- Internet Explorer dominance (IE6)
+- Stagnation in browser innovation
+- **JavaScript libraries emerge to handle cross-browser issues**:
+  - jQuery (2006)
+  - Prototype.js
+  - MooTools
+  - Dojo Toolkit
+
+::right::
+
+```js
+// jQuery example - hiding cross-browser complexity
+$("#myButton").click(function() {
+  $(".elements").fadeIn(500).addClass("active");
+});
+
 ```
 
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
 ---
-level: 2
+layout: two-cols-header
 ---
 
-# Shiki Magic Move
+# Renaissance: Modern JavaScript
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+::left::
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
+**ES6/ES2015**: The biggest update to the language
+  - Arrow functions, classes, modules, promises, etc.
+  - Annual release cycle begins (ES2016, ES2017, etc.)
 
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
+**New browsers and engines**:
+  - Chrome with V8 (2008)
+  - Firefox with SpiderMonkey
+  - Browser competition drives JS engine performance
 
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
+::right::
+
+```js
+// ES6 features
+const add = (a, b) => a + b;
+
+class Person {
+  constructor(name) {
+    this.name = name;
   }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
+  sayHello() {
+    return `Hello, I'm ${this.name}`;
   }
 }
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 621,77,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
+// Modules
+import { Component } from './component';
 ```
 
 ---
 layout: center
-class: text-center
 ---
 
-# Learn More
+# The Transpiler & Bundler Era
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+---
+layout: default
+---
 
-<PoweredBySlidev mt-10 />
+# The Compatibility Problem
+
+- Modern JavaScript features, but older browsers don't support them
+- Businesses need to support legacy browsers (IE11 until recently)
+- Can't use latest language features directly
+
+<div class="mt-32 text-center text-red-500 text-2xl">
+How do we write modern code but still support older browsers?
+</div>
+
+---
+layout: two-cols-header
+---
+
+# Enter: Transpilers
+
+::left::
+
+**Transpilers**: Transform modern JavaScript into backward-compatible versions
+- **Babel**: The most popular JavaScript transpiler
+  - Write ES2015+ code
+  - Babel converts it to ES5 for wider browser support
+
+::right::
+
+```js
+// Modern JavaScript (input)
+const greet = (name) => `Hello, ${name}!`;
+let [first, ...rest] = [1, 2, 3, 4];
+
+// Transpiled to ES5 (output)
+"use strict";
+var greet = function greet(name) {
+  return "Hello, ".concat(name, "!");
+};
+var _ref = [1, 2, 3, 4],
+    first = _ref[0],
+    rest = _ref.slice(1);
+```
+
+---
+layout: default
+---
+
+# Module Systems & Bundlers
+
+**Problem**: Browser support for modules was inconsistent
+
+**Module formats evolved**:
+  - CommonJS (Node.js): **require()** and **module.exports**
+  - AMD (RequireJS): For browsers, async loading
+  - UMD: Universal Module Definition (works in both)
+  - ES Modules: The official standard (**import**/**export**)
+
+**Bundlers**: Package multiple modules into fewer files
+  - **Webpack**: Most popular bundler
+  - **Rollup**: Focused on ES modules and tree-shaking
+  - **Parcel**: Zero-config bundler
+
+---
+layout: two-cols-header
+---
+
+# TypeScript: Type Safety for JavaScript
+
+::left::
+
+- **Released by Microsoft in 2012**
+- **Key benefits**:
+  - Static type checking
+  - Better IDE support
+  - Self-documenting code
+  - Catches errors at compile time
+
+::right::
+
+```ts
+// TypeScript example
+interface User {
+  id: number;
+  name: string;
+  email: string;
+  role: 'admin' | 'user' | 'guest';
+}
+
+function sendEmail(user: User, message: string): Promise<boolean> {
+  // Type-safe implementation
+  return fetch(`/api/email/${user.id}`, {
+    method: 'POST',
+    body: JSON.stringify({ message })
+  }).then(res => res.json());
+}
+```
+---
+layout: two-cols-header
+---
+
+# JavaScript Runtimes
+
+
+Each runtime provides different APIs and capabilities!
+
+::left::
+
+## Browser
+
+- The original JS environment
+  - V8 (Chrome/Edge)
+  - SpiderMonkey (Firefox)
+  - JavaScriptCore (Safari)
+
+::right::
+
+## Server-side
+
+- JavaScript beyond the browser
+  - Node.js (2009) - Server-side JavaScript
+  - Deno (2018) - Secure by default
+  - Bun (2023) - Performance focused
+
+
+
+
+---
+layout: default
+---
+
+# Package Managers: Dependency Hell
+
+- **npm** (2010): Node Package Manager
+  - Revolutionized code sharing
+  - *node_modules* became infamous
+
+- **Yarn** (2016): Faster, more reliable
+  - Introduced lockfiles
+  - Parallel installations
+
+- **pnpm** (2017): Disk space efficient
+  - Symlinks to a central store
+  - Strict dependency resolution
+
+<div class="mt-8 text-center text-red-500">
+The average project now has hundreds of dependencies!
+</div>
+
+---
+layout: center
+---
+
+# Build Systems: Taming the Complexity
+
+---
+layout: default
+---
+
+# The Configuration Nightmare
+
+
+- Complex configuration files 
+- Countless plugins 
+-  Tedious setup 
+-  Slow builds
+
+
+<div class="text-center text-red-500 text-lg mt-32">
+Development became about configuring tools rather than writing code!
+</div>
+
+---
+layout: two-cols-header
+---
+
+# Modern Build Systems
+
+::left::
+
+- **Create React App** (🪦)
+  - Zero-config React setup
+- **Vue CLI** (🪦)
+  - Similar approach for Vue applications
+- **Parcel** (2017)
+  - Zero-config bundler for any project
+- **Vite** (2020)
+  - Lightning-fast dev server using ES modules
+- **Turbopack** (2022)
+  - Announced as "successor to Webpack"
+
+::right::
+
+```bash
+# How simple it became to start a project
+npx create-react-app my-app
+# or
+npm create vite@latest
+```
+
+---
+layout: two-cols-header
+---
+
+# Vite: Revolution in DX
+
+::left::
+
+- Developed by Evan You (Vue creator)
+- **Key innovations**:
+  - Uses native ES modules in development
+  - Only bundles for production
+  - Incredibly fast hot module replacement
+  - Framework-agnostic
+
+::right::
+
+```js
+// vite.config.js - Simple configuration
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+})
+```
+
+
+
+---
+layout: default
+---
+
+# Linting & Formatting
+
+<div class="grid grid-cols-3 gap-4">
+<div>
+
+### ESLint
+- Catch bugs and enforce conventions
+- Pluggable architecture
+- Hundreds of rules available
+
+</div>
+<div>
+
+### Prettier
+- Opinionated code formatting
+- End debates about code style
+- Consistent formatting across teams
+
+</div>
+<div>
+
+### Husky & lint-staged
+- Enforce at commit time
+- Pre-commit hooks
+- Only check changed files
+
+</div>
+</div>
+
+<div class="mt-8 text-center">
+More tools to learn, configure, and maintain...
+</div>
+
+---
+layout: section
+---
+
+# Rendering Strategies Evolution
+
+---
+layout: two-cols
+---
+
+# Traditional Rendering Approaches
+
+::left::
+
+## Server-Side Rendering (SSR)
+- PHP, Ruby on Rails, Django era
+- HTML generated on server
+- Full page reloads
+- Good initial load, poor interactivity
+
+::right::
+
+## Client-Side Rendering (CSR)
+- SPA revolution (React, Angular, Vue)
+- JS downloads, then renders UI
+- Fast after initial load
+- Poor initial load, SEO challenges
+
+---
+layout: two-cols-header
+---
+
+# The SPA Era (2010s)
+
+::left::
+
+## Benefits
+- Client-side rendering with frameworks
+- Smooth UI transitions
+- App-like experience
+- Rich interactivity
+
+::right::
+
+## Problems
+- Slow initial load (JavaScript bundle size)
+- Poor SEO without special handling
+- High memory usage
+- "White screen of death" during loading
+
+
+---
+layout: two-cols-header
+---
+
+::left::
+
+# React: Component Revolution
+
+- **Released by Facebook in 2013**
+- **Key innovations**:
+  - Component-based architecture
+  - Virtual DOM for performance
+  - Declarative UI programming
+  - Unidirectional data flow
+
+::right::
+
+```jsx
+// React component example
+function UserProfile({ user }) {
+  return (
+    <div className="profile">
+      <img src={user.avatar} alt={user.name} />
+      <h2>{user.name}</h2>
+      <p>{user.bio}</p>
+      <button onClick={() => followUser(user.id)}>
+        Follow
+      </button>
+    </div>
+  );
+}
+```
+
+---
+layout: two-cols
+---
+
+# The Return of SSR
+
+## Frameworks
+- Next.js (React)
+- Nuxt.js (Vue)
+- SvelteKit (Svelte)
+
+## Benefits
+- Better initial load performance
+- Improved SEO
+- Better experience for users
+
+::right::
+
+## Challenges
+- More complex infrastructure
+- Node.js required on the server
+- "Hydration" complexity
+
+## Hydration Process
+1. Server renders HTML
+2. Browser loads JS
+3. JS "hydrates" static HTML
+4. App becomes interactive
