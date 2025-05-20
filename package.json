@@ -19,9 +19,15 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "slidev-component-progress": "^1.1.0",
     "sst": "3.14.24"
   },
   "scripts": {
-    "dev:vanilla": "bun run demos/01-vanilla-js/index.html"
+    "dev:vanilla": "bun --cwd 'demos/01-vanilla-js' index.html",
+    "dev:vue": "bun --cwd 'demos/02-vue-spa' dev",
+    "dev:api": "bun --cwd 'packages/api' dev",
+    "dev:slides": "bun --cwd 'slides' dev",
+    "build:slides": "bun --cwd 'slides' build",
+    "build:vue": "bun --cwd 'demos/02-vue-spa' build"
   }
 }

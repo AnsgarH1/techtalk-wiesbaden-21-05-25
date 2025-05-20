@@ -1,0 +1,4292 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.5 1bd436f1",
+    "osm3s": {
+      "timestamp_osm_base": "2025-05-19T15:04:35Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+  
+  {
+    "type": "node",
+    "id": 277803750,
+    "lat": 50.0716216,
+    "lon": 8.2331187,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "7",
+      "addr:postcode": "65187",
+      "addr:street": "Wielandstraße",
+      "amenity": "restaurant",
+      "check_date": "2023-08-30",
+      "cuisine": "italian",
+      "indoor_seating": "yes",
+      "name": "Trattoria Da-Balbi",
+      "opening_hours": "Tu-Su 11:30-14:30,18:00-23:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 840303",
+      "smoking": "no",
+      "takeaway": "yes",
+      "toilets:wheelchair": "no",
+      "website": "https://www.da-balbi.de/",
+      "wheelchair": "yes",
+      "wheelchair:description": "Barrierefrei,kein Behinderten-WC"
+    }
+  },
+  {
+    "type": "node",
+    "id": 349116793,
+    "lat": 50.0744792,
+    "lon": 8.2288420,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "24",
+      "addr:postcode": "65197",
+      "addr:street": "Rauenthaler Straße",
+      "amenity": "restaurant",
+      "cuisine": "german",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Amadeus",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 9881330",
+      "toilets:wheelchair": "no",
+      "website": "http://www.amadeus-wiesbaden.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 359848692,
+    "lat": 50.0730729,
+    "lon": 8.2371943,
+    "tags": {
+      "amenity": "restaurant",
+      "name": "D.D Novi Pazar"
+    }
+  },
+  {
+    "type": "node",
+    "id": 369858219,
+    "lat": 50.0737695,
+    "lon": 8.2327218,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "40",
+      "addr:postcode": "65185",
+      "addr:street": "Kaiser-Friedrich-Ring",
+      "amenity": "restaurant",
+      "contact:instagram": "viethousewbn",
+      "cuisine": "japanese;asian",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Viethouse",
+      "opening_hours": "Tu-Fr 11:00-15:00,17:30-22:30; Sa,Su,PH 13:00-22:00",
+      "outdoor_seating": "no",
+      "payment:credit_cards": "yes",
+      "payment:debit_cards": "yes",
+      "phone": "+49611304265",
+      "smoking": "no",
+      "website": "https://viethouse.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 369858226,
+    "lat": 50.0715050,
+    "lon": 8.2367918,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "thai",
+      "name": "Charm Thai",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 369858235,
+    "lat": 50.0753410,
+    "lon": 8.2377707,
+    "tags": {
+      "addr:housenumber": "5",
+      "addr:street": "Gerichtsstraße",
+      "amenity": "restaurant",
+      "cuisine": "indian",
+      "delivery": "yes",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "email": "partner@eatarian.com",
+      "name": "Masala - indian Restaurant",
+      "opening_hours": "Tu-Fr 11:00-14:00,16:00-22:00; Sa,Su 12:00-22:00",
+      "phone": "+49 611 36094100",
+      "takeaway": "yes",
+      "website": "https://masala-wiesbaden.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 369858254,
+    "lat": 50.0738073,
+    "lon": 8.2386120,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date": "2025-03-31",
+      "cuisine": "sushi",
+      "name": "Sakura Sushi",
+      "opening_hours": "Mo-Fr 11:00-22:00; Sa 12:00-22:00; Su 15:00-22:00",
+      "phone": "+49 611 3602333",
+      "website": "https://www.sushi-wiesbaden.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 431250381,
+    "lat": 50.0841541,
+    "lon": 8.2438891,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "52a",
+      "addr:postcode": "65183",
+      "addr:street": "Wilhelmstraße",
+      "amenity": "restaurant",
+      "cuisine": "indian",
+      "name": "Sonnys Indian Kitchen",
+      "opening_hours": "Mo 17:00-23:00; Tu-Su 11:30-14:30,17:00-23:00",
+      "phone": "+49 611 89063043",
+      "website": "https://sonnys-indian-kitchen.eatbu.com/",
+      "website:menu": "https://sonnys-indian-kitchen.order.app.hd.digital/menus",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 457954551,
+    "lat": 50.0726201,
+    "lon": 8.2313056,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "1",
+      "addr:postcode": "65187",
+      "addr:street": "Kleiststraße",
+      "amenity": "restaurant",
+      "capacity": "50",
+      "check_date": "2025-04-28",
+      "cuisine": "greek",
+      "indoor_seating": "yes",
+      "name": "Mykonos",
+      "opening_hours": "11:30-14:30,18:00-23:30; PH,Tu off; Sa 18:00-23:30",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 841968",
+      "smoking": "outside",
+      "toilets:wheelchair": "no",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 497060824,
+    "lat": 50.0843590,
+    "lon": 8.2431132,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "52 e-f",
+      "addr:postcode": "65183",
+      "addr:street": "Wilhelmstraße",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Beviamo",
+      "opening_hours": "Mo-Th 11:30-24:00, Fr-Sa 11:30-01:00, Su 12:00-00:00",
+      "phone": "+49 611 16087-73",
+      "website": "https://www.beviamo.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 524549231,
+    "lat": 50.0739544,
+    "lon": 8.2324782,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "38",
+      "addr:postcode": "65185",
+      "addr:street": "Kaiser-Friedrich-Ring",
+      "amenity": "restaurant",
+      "brand": "PizzaExpress",
+      "brand:wikidata": "Q662845",
+      "brand:wikipedia": "en:PizzaExpress",
+      "cuisine": "pizza",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "email": "mail@pizza-express.info",
+      "indoor_seating": "yes",
+      "name": "PizzaExpress",
+      "opening_hours": "Mo-Fr 11:00-14:30,17:30-23:00; Su,PH 16:30-22:30",
+      "outdoor_seating": "no",
+      "phone": "+49611301137",
+      "smoking": "no",
+      "website": "https://www.pizza-express.info/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 567165425,
+    "lat": 50.0736016,
+    "lon": 8.2309716,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "22",
+      "addr:postcode": "65187",
+      "addr:street": "Schiersteiner Straße",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Vesuvio",
+      "opening_hours": "Tu-Sa 11:30-14:00,17:00-22:00; Su,PH 17:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 87 141",
+      "smoking": "no",
+      "toilets:wheelchair": "no",
+      "website": "https://www.vesuvio-wiesbaden.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 587254860,
+    "lat": 50.0779840,
+    "lon": 8.2393416,
+    "tags": {
+      "addr:housenumber": "2",
+      "addr:postcode": "65185",
+      "addr:street": "Luisenplatz",
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Mathilda",
+      "outdoor_seating": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 692105937,
+    "lat": 50.0749355,
+    "lon": 8.2429855,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "50",
+      "addr:postcode": "65185",
+      "addr:street": "Bahnhofstraße",
+      "amenity": "restaurant",
+      "cuisine": "asian;sushi;japanese",
+      "diet:vegetarian": "yes",
+      "email": "sajorestaurant@gmail.com",
+      "indoor_seating": "yes",
+      "name": "Sajo Restaurant",
+      "opening_hours": "Tu-Th 12:00-22:00, Fr-Su 11:00-23:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 98896322",
+      "website": "https://sajorestaurant.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 697798710,
+    "lat": 50.0826255,
+    "lon": 8.2282587,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "3",
+      "addr:postcode": "65195",
+      "addr:street": "Westendstraße",
+      "amenity": "restaurant",
+      "cuisine": "japanese",
+      "delivery": "yes",
+      "name": "Tokyo Sushi Bar",
+      "opening_hours": "Sa-Mo 17:00-22:30; Tu-Fr 11:00-14:30,17:00-22:30",
+      "outdoor_seating": "yes",
+      "phone": "+4961188005095",
+      "url": "www.facebook.com/Tokyo-Sushibar",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 697798715,
+    "lat": 50.0828818,
+    "lon": 8.2344892,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "9",
+      "addr:postcode": "65183",
+      "addr:street": "Bleichstraße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "description": "Restaurant extends to neighboring buildings Bleichstrasse 7 and 11",
+      "level": "0",
+      "name": "Harput",
+      "opening_hours": "Mo-Th 11:00-23:00,Fr-Sa 11:00-02:00,Su 11:00-23:00; PH off",
+      "phone": "+49 611 40619",
+      "website": "https://www.harputrestaurant.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 697798717,
+    "lat": 50.0829677,
+    "lon": 8.2402987,
+    "tags": {
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Webers Wikinger",
+      "outdoor_seating": "yes",
+      "website": "https://www.webers-wikinger.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 798620225,
+    "lat": 50.0795171,
+    "lon": 8.2284171,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "7",
+      "addr:postcode": "65195",
+      "addr:street": "Goebenstraße",
+      "amenity": "restaurant",
+      "name": "Pizzeria Buongiorno",
+      "opening_hours": "Tu-Su 17:00-23:00; Mo off",
+      "phone": "+49 611 9490300",
+      "toilets:wheelchair": "no",
+      "website": "https://www.pizzeriabuongiorno.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832845333,
+    "lat": 50.0885615,
+    "lon": 8.2405198,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date": "2025-02-22",
+      "cuisine": "italian",
+      "name": "Osteria Da Enzo",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832846708,
+    "lat": 50.0878694,
+    "lon": 8.2417578,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "steak_house;seafood",
+      "indoor_seating": "yes",
+      "name": "Beef 'n Reef",
+      "outdoor_seating": "yes",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832847916,
+    "lat": 50.0875240,
+    "lon": 8.2421639,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "15",
+      "addr:postcode": "65183",
+      "addr:street": "Taunusstraße",
+      "amenity": "restaurant",
+      "check_date": "2023-09-01",
+      "cuisine": "syrian;lebanese",
+      "description": "Täglich durchgehend warme Küche.",
+      "indoor_seating": "yes",
+      "name": "Restaurant Palmyra",
+      "opening_hours": "12:00-24:00",
+      "operator": "H. Arour",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 522121",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832849026,
+    "lat": 50.0850746,
+    "lon": 8.2441665,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "3-4",
+      "addr:postcode": "65183",
+      "addr:street": "Kaiser-Friedrich-Platz",
+      "amenity": "restaurant",
+      "name": "Restaurant Ente",
+      "website": "https://www.nassauer-hof.de/de/restaurant-ente",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832849414,
+    "lat": 50.0850260,
+    "lon": 8.2473689,
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Benner's",
+      "old_name": "Käfer's Bistro",
+      "opening_hours": "Mo-Th 11:30-01:00, Fr,Sa 11:30-02:00, Su 11:00-01:00",
+      "toilets:wheelchair": "yes",
+      "wheelchair": "yes",
+      "wheelchair:description": "Toilette im Kurhaus"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832866755,
+    "lat": 50.0764635,
+    "lon": 8.2397983,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2025-02-25",
+      "cuisine": "italian",
+      "indoor_seating": "yes",
+      "name": "Pizzeria Toscana",
+      "opening_hours": "Mo-Fr 11:00-22:00, PH 17:00-22:00",
+      "outdoor_seating": "yes",
+      "website": "http://www.pizzeriatoscana-wiesbaden.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832868288,
+    "lat": 50.0768204,
+    "lon": 8.2397264,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "latin_american",
+      "name": "Sombrero Latino",
+      "opening_hours": "Mo-Sa 17:30+",
+      "phone": "+49 611 3083822",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 832897140,
+    "lat": 50.0893136,
+    "lon": 8.2393705,
+    "tags": {
+      "addr:housenumber": "59",
+      "addr:street": "Taunusstraße",
+      "amenity": "restaurant",
+      "cuisine": "thai",
+      "name": "Erawan",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 833338841,
+    "lat": 50.0889501,
+    "lon": 8.2371302,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "12",
+      "addr:postcode": "65183",
+      "addr:street": "Stiftstraße",
+      "amenity": "restaurant",
+      "name": "Huacas Peru",
+      "opening_hours": "Mo off; We-Fr 17:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+      "phone": "+49611 88020158",
+      "website": "https://www.huacas-peru.com/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 833343351,
+    "lat": 50.0888588,
+    "lon": 8.2401248,
+    "tags": {
+      "amenity": "restaurant",
+      "name": "M Restaurant"
+    }
+  },
+  {
+    "type": "node",
+    "id": 833343368,
+    "lat": 50.0876741,
+    "lon": 8.2414033,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "22",
+      "addr:postcode": "65183",
+      "addr:street": "Taunusstraße",
+      "amenity": "restaurant",
+      "cuisine": "asian",
+      "name": "Grand Asia",
+      "opening_hours": "Mo-Do 17:00-23:00, Fr-So 12:00-23:30",
+      "phone": "+4961158043668",
+      "website": "https://wiesbaden.grand-asia.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 833343370,
+    "lat": 50.0880713,
+    "lon": 8.2413095,
+    "tags": {
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Il Gondoliere",
+      "outdoor_seating": "yes",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 892557585,
+    "lat": 50.0658286,
+    "lon": 8.2554757,
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Pizzeria Laguna",
+      "opening_hours": "Mo-Fr 11:30-14:30,18:00-23:00, Sa,PH 18:00-23:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 985925300,
+    "lat": 50.0824051,
+    "lon": 8.2221727,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "34",
+      "addr:postcode": "65195",
+      "addr:street": "Lothringer Straße",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2023-02-12",
+      "level": "0",
+      "name": "Monte",
+      "opening_hours:signed": "no",
+      "outdoor_seating": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1106398370,
+    "lat": 50.0665695,
+    "lon": 8.2246825,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "14",
+      "addr:postcode": "65187",
+      "addr:street": "Dostojewskistraße",
+      "amenity": "restaurant",
+      "cuisine": "italian;pizza",
+      "name": "Cafe Bistrorante Pizzeria Milano",
+      "opening_hours": "Mo-Su 10:30-21:00",
+      "website": "https://www.lieferando.de/cafe-bistrorante-pizzeria-milano"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1129845327,
+    "lat": 50.0626969,
+    "lon": 8.2307084,
+    "tags": {
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Waldstuben",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1232334098,
+    "lat": 50.0804235,
+    "lon": 8.2328973,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "22",
+      "addr:postcode": "65183",
+      "addr:street": "Hellmundstraße",
+      "amenity": "restaurant",
+      "check_date": "2025-02-10",
+      "contact:facebook": "https://www.facebook.com/simonefamilie/",
+      "cuisine": "italian",
+      "email": "restaurantsimone@outlook.de",
+      "name": "Restaurant Simone",
+      "opening_hours": "Mo-Th 11:30-14:30,17:00-24:00, Fr 11:30-14:30,17:00-01:00, Sa,PH 17:00-01:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 402593",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1268675849,
+    "lat": 50.0831261,
+    "lon": 8.2284409,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "2",
+      "addr:postcode": "65195",
+      "addr:street": "Sedanplatz",
+      "amenity": "restaurant",
+      "check_date": "2024-12-20",
+      "email": "Alexander.Sarac@t-online.de",
+      "name": "Das Lokal",
+      "opening_hours": "Tu-Sa 12:00+; Su 10:00+",
+      "operator": "Alexander Sarac",
+      "payment:cash": "yes",
+      "payment:girocard": "yes",
+      "phone": "+49 611 9450784",
+      "smoking": "outside",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1281700870,
+    "lat": 50.0784497,
+    "lon": 8.2336812,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "22",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "persian",
+      "fax": "+49 611 1666913",
+      "name": "Sufi",
+      "opening_hours": "Tu-Fr 11:30-15:30,18:00-23:30; Sa-Su 11:30-23:30",
+      "operator": "Mehran Sheikh Solimany",
+      "phone": "+49 611 1666909",
+      "website": "http://www.sufi-restaurant.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1332236136,
+    "lat": 50.0802975,
+    "lon": 8.2366111,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "57",
+      "addr:postcode": "65185",
+      "addr:street": "Friedrichstraße",
+      "amenity": "restaurant",
+      "cuisine": "afghan",
+      "diet:vegetarian": "yes",
+      "name": "Fasan",
+      "opening_hours": "Mo-Su 10:00-18:00",
+      "phone": "+49611377137",
+      "toilets:wheelchair": "no",
+      "website": "http://www.fasan-online.de",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1434168597,
+    "lat": 50.0840995,
+    "lon": 8.2436050,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "japanese",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "internet_access": "no",
+      "name": "MoschMosch",
+      "opening_hours": "Mo-Sa 11:00-23:00; Su 13:00-22:00",
+      "phone": "+49 611 3346973",
+      "toilets:wheelchair": "no",
+      "website": "https://www.moschmosch.com/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1440306346,
+    "lat": 50.0724362,
+    "lon": 8.2471965,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housename": "Hessisches Ministerium des Innern",
+      "addr:housenumber": "12",
+      "addr:postcode": "65185",
+      "addr:street": "Friedrich-Ebert-Allee",
+      "amenity": "restaurant",
+      "capacity": "300",
+      "cuisine": "german",
+      "opening_hours": "11:30-14:00",
+      "outdoor_seating": "no",
+      "phone": "+49 611 1608740",
+      "smoking": "no",
+      "takeaway": "yes",
+      "website": "https://www.hmdi.hessen.de/",
+      "wheelchair": "limited",
+      "wheelchair:description": "Rollstuhlfahrer melden sich an der Pforte"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1628050540,
+    "lat": 50.0782358,
+    "lon": 8.2278801,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2025-03-30",
+      "cuisine": "sushi",
+      "indoor_seating": "yes",
+      "name": "Kaoru",
+      "opening_hours:signed": "no",
+      "outdoor_seating": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1642201640,
+    "lat": 50.0720920,
+    "lon": 8.2345992,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "1",
+      "addr:postcode": "65187",
+      "addr:street": "Scheffelstraße",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Scheffelstuben",
+      "opening_hours": "11:30-14:15,18:00-23:30; We off",
+      "operator": "Camillo Di Nardo",
+      "phone": "+49 611 809253",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1769512346,
+    "lat": 50.0639544,
+    "lon": 8.2514041,
+    "tags": {
+      "addr:housename": "Pizza Hut",
+      "addr:housenumber": "99",
+      "addr:postcode": "65189",
+      "addr:street": "Mainzer Straße",
+      "amenity": "restaurant",
+      "brand": "Pizza Hut",
+      "brand:wikidata": "Q191615",
+      "cuisine": "pizza",
+      "diet:vegetarian": "yes",
+      "name": "Pizza Hut",
+      "website": "https://www.pizzahut.de",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1769515840,
+    "lat": 50.0978170,
+    "lon": 8.2167624,
+    "tags": {
+      "addr:housenumber": "5",
+      "addr:postcode": "65195",
+      "addr:street": "Unter den Eichen",
+      "amenity": "restaurant",
+      "contact:email": "restaurant.camera@gmx.de",
+      "contact:facebook": "https://www.facebook.com/CameraMensa/",
+      "contact:phone": "+49 611 89077890",
+      "cuisine": "german;italian;pizza",
+      "diet:vegan": "no",
+      "diet:vegetarian": "limited",
+      "indoor_seating": "yes",
+      "name": "Camera",
+      "opening_hours": "Mo-Th 11:30-14:00; Fr 09:00-16:00",
+      "outdoor_seating": "yes",
+      "smoking": "outside"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1809203992,
+    "lat": 50.0781529,
+    "lon": 8.2269640,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "61",
+      "addr:postcode": "65197",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Mac Döner",
+      "opening_hours": "Mo-Fr 11:00-21:00; Sa off; Su 12:00-21:00",
+      "outdoor_seating": "yes",
+      "smoking": "no",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1835369402,
+    "lat": 50.0794072,
+    "lon": 8.2299872,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "11",
+      "addr:postcode": "65183",
+      "addr:street": "Bismarckring",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2025-03-30",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "facebook": "https://www.facebook.com/PizzeriaDiGrazia/",
+      "name": "Pizzeria Di Grazia",
+      "opening_hours": "Mo-Fr 11:00-22:00; Su 17:00-22:00",
+      "phone": "+49 611 36088874",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1906700149,
+    "lat": 50.0764238,
+    "lon": 8.2382891,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "11",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "kebab",
+      "diet:vegetarian": "yes",
+      "name": "Kebab Haus",
+      "toilets:wheelchair": "no",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1906768714,
+    "lat": 50.0764308,
+    "lon": 8.2386331,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizza Fritze"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1952328065,
+    "lat": 50.0837793,
+    "lon": 8.2412657,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "4",
+      "addr:postcode": "65183",
+      "addr:street": "Goldgasse",
+      "amenity": "restaurant",
+      "brand": "Sausalitos",
+      "brand:wikidata": "Q2227783",
+      "cuisine": "mexican",
+      "indoor_seating": "yes",
+      "name": "Sausalitos",
+      "opening_hours": "Mo-Th 17:00-24:00; Fr-Sa 17:00-02:00; Su off",
+      "website": "https://www.sausalitos.de/standorte/sausalitos-wiesbaden"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1976794851,
+    "lat": 50.0776124,
+    "lon": 8.2419281,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "26",
+      "addr:postcode": "65185",
+      "addr:street": "Rheinstraße",
+      "amenity": "restaurant",
+      "contact:phone": "+49 611 44750057",
+      "contact:website": "https://www.pescaletta.de",
+      "cuisine": "fish;french;greek;spanish;italian",
+      "name": "Pescaletta Fisch Pasta",
+      "opening_hours": "Mo-Fr 12:00-15:00, 18:00-22:00; Sa 18:00-22:00",
+      "phone": "+49 611 44750057",
+      "website": "https://www.pescaletta.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2097998715,
+    "lat": 50.0870098,
+    "lon": 8.2221473,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "23",
+      "addr:postcode": "65195",
+      "addr:street": "Aarstraße",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "Pizza Rimini",
+      "opening_hours": "Tu-Sa 11:30-14:00,17:00-22:30, Su 16:00-22:30",
+      "phone": "+496114050513"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2129492894,
+    "lat": 50.0888366,
+    "lon": 8.2202535,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "30",
+      "addr:postcode": "65195",
+      "addr:street": "Albrecht-Dürer-Straße",
+      "amenity": "restaurant",
+      "check_date": "2024-12-27",
+      "cuisine": "italian",
+      "name": "Pizzeria Da Giovanni",
+      "opening_hours": "Tu-Sa 11:30-15:00,17:30-22:30, Su 11:30-22:30",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 402255",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2190254105,
+    "lat": 50.0817370,
+    "lon": 8.2372874,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "syrian",
+      "diet:mediterranean": "yes",
+      "name": "Sahara",
+      "opening_hours": "Mo-Sa 11:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 39316",
+      "toilets:wheelchair": "yes",
+      "website": "https://www.sahara-wiesbaden.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2209711543,
+    "lat": 50.0842107,
+    "lon": 8.2396156,
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Die Schachtel"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2209711560,
+    "lat": 50.0827662,
+    "lon": 8.2356369,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "50",
+      "addr:postcode": "65183",
+      "addr:street": "Schwalbacher Straße",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2024-07-11",
+      "cuisine": "turkish;seafood",
+      "email": "info@guenays-fisch.de",
+      "name": "Günay's Fisch",
+      "opening_hours": "Mo-Su 10:00-21:30",
+      "phone": "+49 611 98867897",
+      "website": "https://xn--gnays-fisch-thb.de/index.html"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2209711590,
+    "lat": 50.0815477,
+    "lon": 8.2357603,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "german;croatian",
+      "name": "Mauritius",
+      "opening_hours": "Tu-Su 11:00-14:30, 17:00-22:00",
+      "website": "https://www.restaurant-mauritius.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2209711676,
+    "lat": 50.0818816,
+    "lon": 8.2379544,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2024-10-03",
+      "name": "Novella",
+      "opening_hours:signed": "no",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2244638086,
+    "lat": 50.0828925,
+    "lon": 8.2391109,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "3",
+      "addr:postcode": "65183",
+      "addr:street": "Langgasse",
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "email": "contact@saigondelis.com",
+      "indoor_seating": "yes",
+      "internet_access": "wlan",
+      "name": "Saigon Delis",
+      "opening_hours": "Mo-Sa 10:30-20:00",
+      "outdoor_seating": "no",
+      "phone": "+4961198715494",
+      "website": "https://saigondelis.com",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2507993872,
+    "lat": 50.0696763,
+    "lon": 8.2257595,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "2a",
+      "addr:postcode": "65197",
+      "addr:street": "Willy-Brandt-Allee",
+      "amenity": "restaurant",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "name": "JohnaGold",
+      "opening_hours": "Mo-Fr 11:30-22:30"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2734320385,
+    "lat": 50.0725280,
+    "lon": 8.2388050,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "41",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "Pizzaboy",
+      "opening_hours": "Su-Th 11:00-23:00; Fr 11:00-24:00; Sa 12:00-24:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 6966930",
+      "smoking": "outside",
+      "takeaway": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2743161646,
+    "lat": 50.0745681,
+    "lon": 8.2388657,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date": "2025-04-20",
+      "check_date:diet:vegetarian": "2025-04-20",
+      "cuisine": "arab",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Al Petra",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2857912982,
+    "lat": 50.0976049,
+    "lon": 8.2319842,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "2",
+      "addr:place": "Neroberg",
+      "addr:postcode": "65193",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "email": "info@wagner-gastronomie.de",
+      "fax": "+49 611 599568",
+      "level": "1",
+      "name": "Wagner im Opelbad",
+      "opening_hours": "Tu-Su 12:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 525100",
+      "ref:vatin": "4022915858",
+      "reservation": "yes",
+      "website": "https://www.wagner-gastronomie.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2932603239,
+    "lat": 50.0828300,
+    "lon": 8.2376894,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "18",
+      "addr:postcode": "65183",
+      "addr:street": "Michelsberg",
+      "amenity": "restaurant",
+      "cuisine": "afghan",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Die Waffel",
+      "opening_hours": "Mo-Sa 11:00-21:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 1377698",
+      "toilets:wheelchair": "no",
+      "website": "http://die-waffel.com/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3053265953,
+    "lat": 50.0770006,
+    "lon": 8.2145675,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "135a",
+      "addr:postcode": "65197",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/CigkoftemWiesbaden",
+      "cuisine": "turkish",
+      "name": "Çiğköftem Wiesbaden"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3073877795,
+    "lat": 50.0781451,
+    "lon": 8.2336435,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "24-26",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://de-de.facebook.com/Symposion-150183011684162/",
+      "cuisine": "greek",
+      "name": "Symposion",
+      "opening_hours": "Mo 11:30-15:00, 17:30-00:00; We-Fr 11:30-15:00, 17:30-00:00; Sa 17:30-00:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 372336",
+      "smoking": "outside"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3074606553,
+    "lat": 50.0768082,
+    "lon": 8.2385734,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "8",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "sushi",
+      "email": "info@5mini-kitchen.de",
+      "name": "5-Mini-Kitchen Asia Restaurant Sushi",
+      "opening_hours": "Mo 11:00-22:00,We-Th 11:00-22:00,Fr-Su 11:00-23:00; PH 11:00-23:00",
+      "phone": "+49 611 44757888",
+      "website": "https://5mini-kitchen.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3081917335,
+    "lat": 50.0817112,
+    "lon": 8.2417434,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "6",
+      "addr:postcode": "65183",
+      "addr:street": "Schloßplatz",
+      "amenity": "restaurant",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "name": "Der Andechser im Ratskeller",
+      "note": "Im Sommer gibt es auch einen Biergarten",
+      "opening_hours": "Mo-Sa 11:00-24:00, Su,PH 11:00-23:00",
+      "phone": "+49611300023",
+      "toilets:wheelchair": "yes",
+      "website": "http://www.derandechser-wiesbaden.de",
+      "wheelchair": "yes",
+      "wheelchair:description": "Rollstuhlfahrer/innen benutzen bitte den Seiteneingang, denn dort befindet sich der Aufzug! Brave Hunde dürfen mitgebracht werden :-) Mo-Sa 11 - 24Uhr, So/Feiertage bis 23Uhr"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3104066557,
+    "lat": 50.0824750,
+    "lon": 8.2403193,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "15",
+      "addr:postcode": "65183",
+      "addr:street": "Marktstraße",
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Zum Uhrturm",
+      "name:de": "Zum Uhrturm",
+      "opening_hours": "Tu-Fr 11:30-14:30,16:30-22:00; Sa 11:30-22:00; Su,Mo,PH off",
+      "outdoor_seating": "yes",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3147155092,
+    "lat": 50.0771279,
+    "lon": 8.2200112,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzeria Diana"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3226144297,
+    "lat": 50.0672998,
+    "lon": 8.2232458,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:postcode": "65187",
+      "addr:street": "Schiersteiner Straße",
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "name": "Kaiserpalast",
+      "opening_hours": "11:30-15:00,17:30-22:30; Tu off",
+      "toilets:wheelchair": "no",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3269537620,
+    "lat": 50.0790811,
+    "lon": 8.2415675,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "24",
+      "addr:street": "Luisenstraße",
+      "amenity": "restaurant",
+      "contact:phone": "+49 611 6097 9899",
+      "contact:website": "http://www.thai-banyan.com/",
+      "cuisine": "thai",
+      "diet:vegetarian": "yes",
+      "name": "Thai Banyan",
+      "opening_hours": "Mo-Fr 12:00-15:00,17:30-22:00; Sa,Su 17:00-22:00",
+      "toilets:wheelchair": "no",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3282474708,
+    "lat": 50.0793908,
+    "lon": 8.2197550,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "17",
+      "addr:postcode": "65197",
+      "addr:street": "Kurt-Schumacher-Ring",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Alt Wiesbaden",
+      "opening_hours": "Mo-Fr 11:30-14:00,17:30-23:00; Sa 17:30-23:00; Su 11:30-14:00,17:30-22:00",
+      "phone": "+49 611 442606",
+      "website": "https://www.alt-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3290575871,
+    "lat": 50.0814867,
+    "lon": 8.2297050,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "33",
+      "addr:postcode": "65183",
+      "addr:street": "Bismarckring",
+      "amenity": "restaurant",
+      "cuisine": "pizza;italian",
+      "name": "La Costa Pizza Pasta Salate",
+      "phone": "+49 611 23847483",
+      "takeaway": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3290575879,
+    "lat": 50.0828049,
+    "lon": 8.2295361,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "3",
+      "addr:postcode": "65183",
+      "addr:street": "Sedanplatz",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "delivery": "yes",
+      "facebook": "https://www.facebook.com/ValDiano2023",
+      "name": "Pizzeria ValDiano",
+      "opening_hours": "Mo-Fr 11:30-14:30,17:00-22:30; Sa-Su 17:00-22:30",
+      "operator": "Nicola Roberto",
+      "phone": "+49 611 790 60 673",
+      "takeaway": "yes",
+      "website": "https://valdiano.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3290575893,
+    "lat": 50.0834117,
+    "lon": 8.2286554,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "1",
+      "addr:postcode": "65195",
+      "addr:street": "Seerobenstraße",
+      "amenity": "restaurant",
+      "check_date": "2025-04-23",
+      "contact:email": "m.namet@live.de",
+      "contact:phone": "+49 152 28617523",
+      "contact:website": "http://www.rieslingimhindukusch.de/",
+      "cuisine": "afghan",
+      "internet_access": "no",
+      "name": "Riesling im Hindukusch",
+      "opening_hours": "Mo-Th 17:00-00:00; Fr,Sa 17:00-01:00",
+      "operator": "Massi Namet",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3328630324,
+    "lat": 50.0780816,
+    "lon": 8.2369136,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "3",
+      "addr:postcode": "65185",
+      "addr:street": "Schwalbacher Straße",
+      "amenity": "restaurant",
+      "cuisine": "afghan",
+      "internet_access": "no",
+      "name": "Chutney's Restaurant",
+      "opening_hours": "Mo-Sa 11:00-21:00",
+      "smoking": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3417387994,
+    "lat": 50.0810704,
+    "lon": 8.2406976,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "indoor_seating": "yes",
+      "name": "Nam Nam",
+      "opening_hours": "Mo-Sa 11:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+4961151011434",
+      "takeaway": "yes",
+      "website": "https://www.nam-nam.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3419860893,
+    "lat": 50.0818568,
+    "lon": 8.2396426,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "18",
+      "addr:postcode": "65183",
+      "addr:street": "Neugasse",
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Du & Ich",
+      "opening_hours": "Mo-Th 08:30-22:30; Fr,Sa 08:30-23:00; Su 09:00-22:30",
+      "outdoor_seating": "yes",
+      "toilets:wheelchair": "no",
+      "website": "https://du-und-ich.info/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3472716163,
+    "lat": 50.0742951,
+    "lon": 8.2390960,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "24",
+      "addr:postcode": "65185",
+      "addr:street": "Albrechtstraße",
+      "amenity": "restaurant",
+      "cuisine": "japanese",
+      "diet:vegetarian": "yes",
+      "email": "ochinosushiya@gmail.com",
+      "indoor_seating": "yes",
+      "name": "Ochi no Sushiya",
+      "opening_hours": "Mo-Sa 17:00-23:00, PH 17:00-23:00",
+      "outdoor_seating": "no",
+      "phone": "+49-611-36024108",
+      "website": "http://www.ochinosushiya.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3733613354,
+    "lat": 50.0780279,
+    "lon": 8.2404242,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "french",
+      "name": "La Brasserie"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3829970240,
+    "lat": 50.0785701,
+    "lon": 8.2314355,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "37",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "construction:amenity": "restaurant",
+      "contact:email": "mail@cafe-de-colombia.de",
+      "contact:phone": "+49 611 400 200",
+      "contact:website": "http://www.cafe-de-colombia.eu/",
+      "cuisine": "colombian",
+      "indoor_seating": "yes",
+      "name": "Café de Colombia",
+      "opening_hours": "Mo-Fr 07:30-19:00; Sa 08:30-14:00",
+      "outdoor_seating": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3829970241,
+    "lat": 50.0785879,
+    "lon": 8.2317215,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "35",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "pizza;burger",
+      "description": "Derzeit nur Lieferando-Bestellungen / Currently Lieferando delivery only",
+      "name": "Pizzeria Bacco",
+      "opening_hours": "Tu-Su 11:30-22:30",
+      "phone": "+49 611 309376",
+      "website": "https://www.legends-pizza-company-dotzheimer-str.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4084661063,
+    "lat": 50.0781728,
+    "lon": 8.2308615,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "44",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "email": "info@pippos-trattoria.de",
+      "name": "Pippo's Trattoria",
+      "opening_hours": "Th-Tu 11:30-14:30,17:30-22:30",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 900 69 36",
+      "website": "https://www.pippostrattoria-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4084661064,
+    "lat": 50.0783457,
+    "lon": 8.2326023,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "30",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "asian",
+      "name": "Cozy Asian Corner 1989",
+      "opening_hours": "Mo-Fr 11:30-14:30, 17:30-22:00; Sa-Su 17:30-22:30",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 3417877;+49 176 61226223",
+      "website": "https://www.cozyasiancorner1989.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4243497407,
+    "lat": 50.0885120,
+    "lon": 8.2405903,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "name": "Bun Cha Vietnamese Street Food",
+      "note": "früher war hier: Pattaya",
+      "opening_hours": "Sa-Su 13:00-23:00, Mo-Fr 12:00-22:00",
+      "phone": "+4961120577753",
+      "website": "http://buncha-wiesbaden.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4293358689,
+    "lat": 50.0836658,
+    "lon": 8.2406190,
+    "tags": {
+      "addr:housenumber": "33-35",
+      "addr:street": "Wagemannstraße",
+      "amenity": "restaurant",
+      "cuisine": "bavarian",
+      "name": "Ludwig",
+      "website": "https://www.altstadtludwig-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4293408991,
+    "lat": 50.0831000,
+    "lon": 8.2403799,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "18",
+      "addr:postcode": "65183",
+      "addr:street": "Grabenstraße",
+      "amenity": "restaurant",
+      "name": "anstößig Tapas und Wein",
+      "opening_hours": "We-Fr 17:30+; Sa 15:30-23:00",
+      "outdoor_seating": "yes",
+      "website": "https://wiesbaden-eats.com/anstoessig"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4348830093,
+    "lat": 50.0785443,
+    "lon": 8.2359200,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "asian",
+      "name": "Chutney's",
+      "opening_hours": "Mo-Sa 10:00-20:00",
+      "smoking": "no",
+      "takeaway": "yes",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4463747358,
+    "lat": 50.0887176,
+    "lon": 8.2350178,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "8",
+      "addr:postcode": "65183",
+      "addr:street": "Kellerstraße",
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "level": "0",
+      "name": "An’s Kitchen",
+      "opening_hours": "Mo-Fr 10:30-15:30",
+      "phone": "+49 611 15757577",
+      "smoking": "no",
+      "takeaway": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4464930559,
+    "lat": 50.0843731,
+    "lon": 8.2405979,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "15-17",
+      "addr:postcode": "65183",
+      "addr:street": "Goldgasse",
+      "amenity": "restaurant",
+      "contact:phone": "+49 611 50595866",
+      "cuisine": "italian",
+      "name": "Due Amici",
+      "opening_hours": "Mo-Th 11:30-24:00; Fr-Sa 11:30-00:30",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4486338967,
+    "lat": 50.0781407,
+    "lon": 8.2430243,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:postcode": "65185",
+      "amenity": "restaurant",
+      "cuisine": "japanese",
+      "name": "Sokusai Yumei",
+      "opening_hours": "Mo-Fr 11:30-15:00,17:30-23:30; Sa,Su 12:00-23:30",
+      "website": "https://www.sokusai-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4565360237,
+    "lat": 50.0838282,
+    "lon": 8.2405667,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "spanish",
+      "name": "Viva Los Tioz"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4577312807,
+    "lat": 50.0841818,
+    "lon": 8.2435065,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "52",
+      "addr:postcode": "65183",
+      "addr:street": "Wilhelmstraße",
+      "amenity": "restaurant",
+      "cuisine": "arab",
+      "email": "welcome@saytoune.de",
+      "name": "Saytoune",
+      "opening_hours": "Mo-Su 12:00-23:30",
+      "phone": "+49 611 3086110",
+      "toilets:wheelchair": "yes",
+      "website": "https://www.saytoune.de/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4579898484,
+    "lat": 50.0797821,
+    "lon": 8.2299339,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "17",
+      "addr:postcode": "65183",
+      "addr:street": "Bismarckring",
+      "amenity": "restaurant",
+      "contact:phone": "+496113419119",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "level": "0",
+      "name": "Pizzeria Verona",
+      "opening_hours": "Mo-Fr 11:00-01:00; 11:00-00:45; Sa 12:00-01:00; Su 12:00-22:00",
+      "outdoor_seating": "yes",
+      "payment:cash": "yes",
+      "payment:credit_cards": "no",
+      "payment:debit_cards": "no",
+      "payment:paypal": "yes",
+      "toilets": "no",
+      "website": "https://www.verona-pizza.de",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4592781506,
+    "lat": 50.0804664,
+    "lon": 8.2300823,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "46",
+      "addr:postcode": "65183",
+      "addr:street": "Bleichstraße",
+      "amenity": "restaurant",
+      "closed:amenity": "fast_food",
+      "contact:twitter": "@Pizzeria_rodi",
+      "cuisine": "pizza",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "name": "Pizzeria Rodi",
+      "opening_hours": "Mo-Sa 12:00-22:00,Su 16:00-22:00; PH 16:00-22:00",
+      "phone": "+49 176 841233568",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4716749928,
+    "lat": 50.0842266,
+    "lon": 8.2407059,
+    "tags": {
+      "addr:housenumber": "13",
+      "addr:postcode": "65183",
+      "addr:street": "Goldgasse",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Ristorante Comeback",
+      "opening_hours": "Su-Th 11:30-24:00; Fr,Sa 11:30-01:00",
+      "outdoor_seating": "yes",
+      "phone": "+49611373802",
+      "website": "https://ristorante-comeback.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4716749929,
+    "lat": 50.0842388,
+    "lon": 8.2405340,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "16",
+      "addr:postcode": "65183",
+      "addr:street": "Goldgasse",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "email": "mail@aurum-mediterrane.de",
+      "name": "Aurum",
+      "opening_hours": "Mo-Fr 11:30-01:00, Sa-Su 09:30-01:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 3600877",
+      "website": "https://www.aurum-mediterrane.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4716749930,
+    "lat": 50.0839641,
+    "lon": 8.2406409,
+    "tags": {
+      "addr:housenumber": "10",
+      "addr:street": "Goldgasse",
+      "air_conditioning": "no",
+      "amenity": "restaurant",
+      "cuisine": "steak_house;argentinian",
+      "indoor_seating": "yes",
+      "name": "Casa Del Sabor",
+      "opening_hours": "11:30-24:00",
+      "outdoor_seating": "yes",
+      "phone": "+4961133483981",
+      "smoking": "outside",
+      "website": "https://www.casadelsabor.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4716764700,
+    "lat": 50.0828805,
+    "lon": 8.2395984,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "4",
+      "addr:street": "Alfons-Paquet-Straße",
+      "amenity": "restaurant",
+      "name": "Zum Schwejk",
+      "opening_hours": "Su-Th 17:00-04:00, Fr,Sa 17:00-05:00",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4716781329,
+    "lat": 50.0837126,
+    "lon": 8.2410184,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "indoor_seating": "yes",
+      "name": "Da Vincenzo",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4717164068,
+    "lat": 50.0844171,
+    "lon": 8.2423213,
+    "tags": {
+      "amenity": "restaurant",
+      "contact:phone": "+49 611 990 5530",
+      "contact:website": "http://www.martino-restaurant.de",
+      "name": "martino Kitchen",
+      "opening_hours": "Mo-Sa 07:00-23:00; PH off"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5001553788,
+    "lat": 50.0762806,
+    "lon": 8.2519931,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "36",
+      "addr:postcode": "65189",
+      "addr:street": "Frankfurter Straße",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Ristorante Di Gregorio",
+      "website": "https://www.di-gregorio.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5016654320,
+    "lat": 50.0746754,
+    "lon": 8.2388524,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "34",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "check_date": "2025-03-17",
+      "cuisine": "thai",
+      "name": "Thai Orchid",
+      "opening_hours": "Mo-Sa 12:00-14:30,18:00-23:00, Su 18:00-23:00",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5016654321,
+    "lat": 50.0748816,
+    "lon": 8.2388214,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "32",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/GrillKebap2000",
+      "cuisine": "kebab;turkish",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Kebab 2000",
+      "opening_hours": "Su-Th 09:00-01:00, Fr-Sa 09:00-03:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 3081823",
+      "smoking": "no",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5016664442,
+    "lat": 50.0754087,
+    "lon": 8.2396336,
+    "tags": {
+      "addr:country": "DE",
+      "addr:housenumber": "7",
+      "addr:postcode": "65185",
+      "addr:street": "Adolfsallee",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Ristorante Da Mario",
+      "opening_hours": "Mo-Fr 12:00-15:30,18:00-22:30; Sa 18:00+"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5016670214,
+    "lat": 50.0745096,
+    "lon": 8.2393899,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "21",
+      "addr:postcode": "65185",
+      "addr:street": "Albrechtstraße",
+      "amenity": "restaurant",
+      "contact:phone": "+49 611 50568750",
+      "cuisine": "indian",
+      "delivery": "yes",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "email": "info@singhs-wiesbaden.de",
+      "fax": "+49 611 9450213",
+      "indoor_seating": "yes",
+      "name": "Singh's",
+      "opening_hours": "Mo 11:30-14:00, 16:30-22:00; We-Fr 11:30-14:00, 16:30-22:00; Sa-Su 12:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 50568750",
+      "takeaway": "yes",
+      "website": "http://www.singhs-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5237980425,
+    "lat": 50.0884248,
+    "lon": 8.2402174,
+    "tags": {
+      "amenity": "restaurant"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5465518021,
+    "lat": 50.0948671,
+    "lon": 8.2249115,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "66",
+      "addr:postcode": "65193",
+      "addr:street": "Nerotal",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Ristorante Girasole im Nerotal",
+      "opening_hours": "Tu-Fr 12:00-14:30,18:00-22:30; Sa 12:00-22:30; Su 12:00-21:30",
+      "phone": "+49 611 527852",
+      "website": "https://www.girasole-im-nerotal.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5659220145,
+    "lat": 50.0747297,
+    "lon": 8.2397734,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "17",
+      "addr:postcode": "65185",
+      "addr:street": "Adolfsallee",
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Quán TRE",
+      "opening_hours": "Mo-Sa 11:30-15:00,17:00-22:00; Su,PH 15:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+4961144762828",
+      "website": "https://www.tre-restaurant.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5704791308,
+    "lat": 50.0839490,
+    "lon": 8.2292953,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "7",
+      "addr:postcode": "65183",
+      "addr:street": "Weißenburgstraße",
+      "amenity": "restaurant",
+      "cuisine": "greek",
+      "delivery": "no",
+      "name": "Taverne Niko",
+      "opening_hours": "Mo,Tu,Th,Fr,Su 12:00-15:00,18:00-01:00, Sa 18:00-01:00",
+      "outdoor_seating": "no",
+      "phone": "+49611405120",
+      "smoking": "outside",
+      "website": "https://www.taverne-niko.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5813287302,
+    "lat": 50.0835034,
+    "lon": 8.2409322,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "waffle",
+      "indoor_seating": "yes",
+      "name": "Hollywood Waffel",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5813312266,
+    "lat": 50.0798951,
+    "lon": 8.2366422,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date": "2025-04-30",
+      "check_date:diet:vegetarian": "2025-04-30",
+      "cuisine": "kumpir;sandwich;salad;waffle",
+      "diet:vegetarian": "yes",
+      "name": "Kumpir & Salat",
+      "takeaway": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5813312267,
+    "lat": 50.0799379,
+    "lon": 8.2366334,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "diet:vegetarian": "yes",
+      "name": "Mung Mung",
+      "takeaway": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5876214094,
+    "lat": 50.0823984,
+    "lon": 8.2251308,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "30",
+      "addr:postcode": "65195",
+      "addr:street": "Westendstraße",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2024-04-29",
+      "contact:email": "eden@mamaofafrica.de",
+      "contact:phone": "+49 611 1717297",
+      "cuisine": "eritrean;ethopian;east african",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "entrance": "yes",
+      "name": "Mama of Africa",
+      "opening_hours": "Mo-Su 17:00-22:00",
+      "outdoor_seating": "yes",
+      "smoking": "no",
+      "website": "http://www.mamaofafrica.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5965855585,
+    "lat": 50.0761727,
+    "lon": 8.2448651,
+    "tags": {
+      "amenity": "restaurant",
+      "check_date": "2024-06-18",
+      "cuisine": "italian",
+      "name": "Jo‘s Weinbar",
+      "opening_hours": "Mo-Fr 11:00-18:00; Sa-Su off",
+      "toilets:wheelchair": "yes",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6037164085,
+    "lat": 50.0779350,
+    "lon": 8.2393008,
+    "tags": {
+      "addr:housenumber": "43",
+      "addr:postcode": "65185",
+      "addr:street": "Rheinstraße",
+      "amenity": "restaurant",
+      "cuisine": "lebanese",
+      "name": "Bei Gabriel",
+      "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-17:00",
+      "phone": "+496113309990"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6037250395,
+    "lat": 50.0801789,
+    "lon": 8.2383021,
+    "tags": {
+      "addr:postcode": "65185",
+      "amenity": "restaurant",
+      "cuisine": "lebanese",
+      "name": "Bei Gabriel",
+      "opening_hours": "Mo-Sa 10:00-20:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6037382087,
+    "lat": 50.0769959,
+    "lon": 8.2400991,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "8",
+      "addr:postcode": "65185",
+      "addr:street": "Adolfstraße",
+      "amenity": "restaurant",
+      "delivery": "yes",
+      "name": "Tschillma",
+      "opening_hours": "Mo-Fr 11:00-18:30; Sa 11:00-17:00",
+      "phone": "+49 611 4505252",
+      "website": "https://www.tschillma.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6352922234,
+    "lat": 50.0785414,
+    "lon": 8.2347433,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "12",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "barbecue",
+      "name": "Pasha Köfte Grill",
+      "outdoor_seating": "yes",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6446291920,
+    "lat": 50.0842018,
+    "lon": 8.2407378,
+    "tags": {
+      "addr:housenumber": "13",
+      "addr:postcode": "65183",
+      "addr:street": "Goldgasse",
+      "air_conditioning": "yes",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Belpasso",
+      "official_name": "Ristorante Belpasso",
+      "old_name": "La Cantinetta",
+      "opening_hours": "11:00-24:00",
+      "operator": "Mohamed Katar",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 53153753",
+      "website": "https://www.ristorante-belpasso.com/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6456500353,
+    "lat": 50.0926323,
+    "lon": 8.2140663,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "17",
+      "addr:postcode": "65195",
+      "addr:street": "Bornhofenweg",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2021-08-18",
+      "contact:phone": "+49 611 406649",
+      "cuisine": "german",
+      "name": "Äbbelwoi Schmidt",
+      "opening_hours": "Th-Sa 16:00-21:30; Su 14:00-21:30",
+      "outdoor_seating": "yes",
+      "website": "http://www.aebbelwoi-schmidt.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6531475119,
+    "lat": 50.0792341,
+    "lon": 8.2404698,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Verace",
+      "opening_hours": "Mo-Sa 17:00-22:00",
+      "phone": "+49 611 16858621",
+      "website": "https://cucinapopolare.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6779959928,
+    "lat": 50.0876213,
+    "lon": 8.2414888,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "22",
+      "addr:postcode": "65183",
+      "addr:street": "Taunusstraße",
+      "amenity": "restaurant",
+      "cuisine": "moroccan",
+      "level": "0",
+      "name": "Agadir",
+      "opening_hours": "Mo-Su 11:30-22:00",
+      "phone": "+49 611 51011202",
+      "toilets": "yes",
+      "website": "https://restaurant-agadir-wiesbaden.jimdosite.com/kontakt/",
+      "wheelchair": "limited",
+      "wheelchair:step_height": "15"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6987899008,
+    "lat": 50.0841480,
+    "lon": 8.2393440,
+    "tags": {
+      "addr:housenumber": "4",
+      "addr:postcode": "65183",
+      "addr:street": "Am Römertor",
+      "amenity": "restaurant",
+      "cuisine": "thai",
+      "email": "INFO@BURARI.DE",
+      "name": "Burari",
+      "opening_hours": "Su 17:00-21:00, Mo,We,Th 17:00-21:00,Fr, Sa 12:00-22:00",
+      "phone": "+149 176 56471215",
+      "website": "https://burari.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7088558220,
+    "lat": 50.0835805,
+    "lon": 8.2362080,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "69",
+      "addr:postcode": "65183",
+      "addr:street": "Schwalbacher Straße",
+      "amenity": "restaurant",
+      "cuisine": "spanish;tapas",
+      "name": "Bodega De Musica",
+      "opening_hours": "Mo-Sa 18:00-01:00",
+      "phone": "+49611 1744544",
+      "website": "http://bodegademusica.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7156124509,
+    "lat": 50.0774965,
+    "lon": 8.2232522,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "98",
+      "addr:postcode": "65197",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "asian",
+      "diet:vegetarian": "yes",
+      "email": "hello@tokygon.de",
+      "name": "Tokygon",
+      "opening_hours": "Mo-Th 12:00-23:00, Fr-Sa 12:00-23:59, Su 12:00-23:00",
+      "phone": "+49 611 98856919",
+      "website": "https://tokygon.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7158675737,
+    "lat": 50.0829841,
+    "lon": 8.2377559,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "13",
+      "addr:postcode": "65183",
+      "addr:street": "Michelsberg",
+      "amenity": "restaurant",
+      "cuisine": "afghan",
+      "description": "zugehörig zu \"Die Waffel\"",
+      "indoor_seating": "yes",
+      "name": "das gegenüber",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7236652453,
+    "lat": 50.0793565,
+    "lon": 8.2259291,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "korean",
+      "name": "Mi koreanische Spezialitäten und Kunstgalerie",
+      "phone": "+49 611 18199958"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7545097086,
+    "lat": 50.0837504,
+    "lon": 8.2409888,
+    "tags": {
+      "addr:housenumber": "11",
+      "addr:postcode": "65183",
+      "addr:street": "Grabenstraße",
+      "amenity": "restaurant",
+      "cuisine": "greek",
+      "indoor_seating": "yes",
+      "name": "Kavos",
+      "opening_hours": "Mo-Sa 11:30-24:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 1574745",
+      "website": "http://www.kavos-Wiesbaden.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7606330346,
+    "lat": 50.0848695,
+    "lon": 8.2437373,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "3-4",
+      "addr:street": "Kaiser-Friedrich-Platz",
+      "amenity": "restaurant",
+      "name": "Orangerie",
+      "website": "https://www.hommage-hotels.com/nassauer-hof-wiesbaden/kulinarik/restaurant-orangerie"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7647325786,
+    "lat": 50.0826891,
+    "lon": 8.2342851,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "12",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "email": "duran_89@hotmail.de",
+      "facebook": "https://www.facebook.com/search/top?q=mustafasgemusekebap",
+      "name": "Harput Bäckerei",
+      "opening_hours": "Mo-Su 08:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 1840511"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7647325793,
+    "lat": 50.0825698,
+    "lon": 8.2322735,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "28",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "sushi;korean",
+      "delivery": "yes",
+      "name": "KiTANO",
+      "opening_hours": "Tu-Fr 11:30-14:00,17:30-21:00; Sa-Su 17:30-21:00; PH 17:30-21:00",
+      "phone": "+49 611 7244150",
+      "takeaway": "yes",
+      "website": "https://www.kitano-wiesbaden.com/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7705879448,
+    "lat": 50.0840074,
+    "lon": 8.2430921,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "amenity": "restaurant",
+      "brand": "Hans im Glück",
+      "brand:wikidata": "Q22569868",
+      "brand:wikipedia": "de:Hans im Glück (Restaurantkette)",
+      "contact:phone": "+49 611 71186500",
+      "contact:website": "https://hansimglueck-burgergrill.de/standort/wiesbaden-am-kurpark",
+      "cuisine": "burger",
+      "indoor_seating": "yes",
+      "name": "Hans im Glück",
+      "opening_hours": "Mo-Su 11:00-22:00",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7840709258,
+    "lat": 50.0819258,
+    "lon": 8.2374404,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "name": "Tialini",
+      "opening_hours": "Mo-Su 12:00-22:00",
+      "toilets:wheelchair": "yes",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7840776096,
+    "lat": 50.0822230,
+    "lon": 8.2396904,
+    "tags": {
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Good morning Vietnam",
+      "opening_hours": "Mo-Sa 11:00-21:30",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7840782381,
+    "lat": 50.0815477,
+    "lon": 8.2405397,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "8",
+      "addr:postcode": "65183",
+      "addr:street": "Ellenbogengasse",
+      "amenity": "restaurant",
+      "cuisine": "american",
+      "delivery": "yes",
+      "facebook": "https://www.facebook.com/people/Godfatherrestaurant/100094681146219/",
+      "name": "Godfather",
+      "outdoor_seating": "yes",
+      "phone": "+49 1590 1973847",
+      "takeaway": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7840815820,
+    "lat": 50.0814246,
+    "lon": 8.2402898,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "fish",
+      "description:payment": "10 € Mindesteinkaufswert bei Kartenzahlung",
+      "description:payment:en": "10 € minimum purchase value for card payment",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "level": "0",
+      "name": "Brauns",
+      "payment:credit_cards": "no",
+      "payment:debit_cards": "yes",
+      "payment:girocard": "yes",
+      "phone": "+49 611 301863"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7920091350,
+    "lat": 50.0844994,
+    "lon": 8.2412744,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "3",
+      "addr:postcode": "65183",
+      "addr:street": "Bärenstraße",
+      "amenity": "restaurant",
+      "brand": "L'Osteria",
+      "brand:wikidata": "Q17323478",
+      "brand:wikipedia": "de:L’Osteria",
+      "cuisine": "italian",
+      "email": "wiesbaden.baerenstrasse@losteria.de",
+      "name": "L'Osteria",
+      "opening_hours": "Mo-Sa 11:30-23:00; Su,PH 12:00-23:00",
+      "phone": "+49 611 44763917",
+      "website": "https://losteria.net/de/restaurants/restaurant/wiesbaden/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7950192219,
+    "lat": 50.0827957,
+    "lon": 8.2335564,
+    "tags": {
+      "addr:housenumber": "23",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "name": "Wellritz Grill",
+      "phone": "+49 1622 845 625",
+      "website": "https://www.wellritzgrill-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7950192220,
+    "lat": 50.0825591,
+    "lon": 8.2319701,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "32",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "arab",
+      "name": "Cairo.65",
+      "opening_hours": "Tu-Su 11:00-21:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8738527446,
+    "lat": 50.0962649,
+    "lon": 8.2206021,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "172",
+      "addr:postcode": "65193",
+      "addr:street": "Platter Straße",
+      "amenity": "restaurant",
+      "cuisine": "italian",
+      "indoor_seating": "yes",
+      "name": "Peranni's",
+      "opening_hours": "Mo-Sa 11:30-14:30,17:30-23:00",
+      "opening_hours:covid19": "Mo-Sa 11:00-14:30,17:30-20:00",
+      "outdoor_seating": "yes",
+      "phone": "+4961189059364",
+      "website": "https://www.perannis.com"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8786262713,
+    "lat": 50.0754712,
+    "lon": 8.2329228,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "2",
+      "addr:postcode": "65187",
+      "addr:street": "Schiersteiner Straße",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2023-10-18",
+      "cuisine": "mexican",
+      "description": "Bar Y Restaurante Mexicano",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "Casa Azteca",
+      "opening_hours": "24/7",
+      "opening_hours:signed": "no",
+      "outdoor_seating": "no",
+      "phone": "+49 (0)611 16888605",
+      "source": "www.casaazteca.de",
+      "website": "https://www.casaazteca.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9545307205,
+    "lat": 50.0807581,
+    "lon": 8.2318246,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "33",
+      "addr:postcode": "65183",
+      "addr:street": "Bleichstraße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "name": "Diyarbakir Ocakbaşi Türk. Rest.",
+      "phone": "+49 611 56598008",
+      "website": "https://diyarbakir-ocakbasi.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9570536613,
+    "lat": 50.0804713,
+    "lon": 8.2350437,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "2",
+      "addr:postcode": "65185",
+      "addr:street": "Bleichstraße",
+      "amenity": "restaurant",
+      "brand": "Eat Happy",
+      "brand:wikidata": "Q125578025",
+      "cuisine": "sushi",
+      "name": "Eat Happy",
+      "website": "https://www.eathappy.de/standorte/?user-address=Bleichstra%C3%9Fe+2%2C+Wiesbaden%2C+Deutschland&lat=50.08072629999999&lng=8.2355589"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9570538042,
+    "lat": 50.0786194,
+    "lon": 8.2317863,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "35",
+      "addr:postcode": "65185",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "cuisine": "pizza;indian;american",
+      "description": "Derzeit Bestellungen über Lieferando / Currently Lieferando delivery service",
+      "name": "Red Onion",
+      "opening_hours": "Tu-Su 11:30-22:30",
+      "phone": "+49 611 309376;+49 151 17287295",
+      "website": "https://www.redonionwiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9570597189,
+    "lat": 50.0804180,
+    "lon": 8.2348714,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "2",
+      "addr:postcode": "65185",
+      "addr:street": "Bleichstraße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/profile.php?id=100042243537217",
+      "cuisine": "afghan;international",
+      "name": "Sahra Orient and More/Tabouleh Restaurant",
+      "opening_hours": "Mo-Sa 08:00-20:00",
+      "phone": "+49 1577 3420849"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9597653328,
+    "lat": 50.0821783,
+    "lon": 8.2396855,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "24",
+      "addr:postcode": "65183",
+      "addr:street": "Neugasse",
+      "amenity": "restaurant",
+      "cuisine": "indian",
+      "indoor_seating": "yes",
+      "name": "Soul Tikka",
+      "opening_hours": "Mo-Su 11:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 50584707",
+      "website": "https://www.soul-tikka.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9682169574,
+    "lat": 50.0765517,
+    "lon": 8.2386177,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "12",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "burger;chicken;german",
+      "diet:vegetarian": "yes",
+      "name": "Lokma Grill",
+      "phone": "+49 611 60979444",
+      "website": "https://www.lokma-restaurant-grill-and-chicken-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9685521467,
+    "lat": 50.0852411,
+    "lon": 8.2426474,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "french",
+      "email": "wiesbaden@chez-mamie.de",
+      "name": "Chez Mamie",
+      "opening_hours": "12:00-24:00",
+      "phone": "+49 611 36024800",
+      "website": "https://www.chez-mamie.de/",
+      "website:menu": "https://henrich-hospitality.com/public/chezmamie-speisekarte-de.pdf",
+      "website:menu:en": "https://henrich-hospitality.com/public/chezmamie-speisekarte-en.pdf"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9703185688,
+    "lat": 50.0785574,
+    "lon": 8.2362495,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "6",
+      "addr:postcode": "65185",
+      "addr:street": "Kirchgasse",
+      "amenity": "restaurant",
+      "cuisine": "asian;vietnamese",
+      "level": "2",
+      "name": "Asia Fu Dong",
+      "opening_hours": "Mo-Sa 11:00-20:00",
+      "website": "https://luisenforum.com/geschaefte/geschaefte-von-a-z/asia-fu-dong.html"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9703191148,
+    "lat": 50.0786022,
+    "lon": 8.2365097,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "6",
+      "addr:postcode": "65185",
+      "addr:street": "Kirchgasse",
+      "amenity": "restaurant",
+      "cuisine": "pizza;italian;coffee_shop;crepe;waffle",
+      "level": "2",
+      "name": "Wolke 7",
+      "opening_hours": "Mo-Sa 09:00-20:00",
+      "website": "https://wolke7-wiesbaden.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9724180877,
+    "lat": 50.0825310,
+    "lon": 8.2343152,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "30",
+      "addr:postcode": "65183",
+      "addr:street": "Helenenstraße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/Afghan-naan-102722892106621/",
+      "cuisine": "afghan",
+      "level": "0",
+      "name": "Afghan Naan Restaurant",
+      "phone": "+49 611 16888529"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9724197200,
+    "lat": 50.0823804,
+    "lon": 8.2346236,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "27",
+      "addr:postcode": "65183",
+      "addr:street": "Helenenstraße",
+      "amenity": "restaurant",
+      "cuisine": "afghan;persian",
+      "level": "0",
+      "name": "Madina Restaurant",
+      "opening_hours": "Mo-Su 11:00-23:00",
+      "phone": "+49 176 80655469;+49 173 1666006"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9732828137,
+    "lat": 50.0806203,
+    "lon": 8.2365369,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "37",
+      "addr:postcode": "65183",
+      "addr:street": "Schwalbacher Straße",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2024-10-03",
+      "cuisine": "chicken",
+      "indoor_seating": "yes",
+      "level": "0",
+      "name": "Chicken & More",
+      "opening_hours": "Mo-Sa 11:00-22:00; Su 14:00-22:00; PH 14:00-22:00",
+      "outdoor_seating": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9732830124,
+    "lat": 50.0805417,
+    "lon": 8.2365586,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "35",
+      "addr:postcode": "65183",
+      "addr:street": "Schwalbacher Straße",
+      "amenity": "restaurant",
+      "cuisine": "turkish;chicken;kebab",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "name": "The Kebap by Cemo",
+      "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-01:00",
+      "outdoor_seating": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9743618335,
+    "lat": 50.0827341,
+    "lon": 8.2350049,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "8",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "chicken;fish;grill;pizza;turkish",
+      "name": "Harput ET",
+      "phone": "+49 611 16862259"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9902000450,
+    "lat": 50.0827164,
+    "lon": 8.2348006,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "8",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/NOQTA-SHOP-418166231694715/",
+      "cuisine": "fish;sushi",
+      "name": "Merzouga Fisch Restaurant",
+      "opening_hours": "Su-Th 12:00-23:00, Fr-Sa 12:00-22:45",
+      "website": "https://www.sushikawasaki.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9921061497,
+    "lat": 50.0743954,
+    "lon": 8.2410374,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "16",
+      "addr:postcode": "65185",
+      "addr:street": "Untere Albrechtstraße",
+      "amenity": "restaurant",
+      "contact:facebook": "https://www.facebook.com/search/top?q=old%20vineyard%20weinbistro",
+      "name": "Old Vineyard",
+      "opening_hours": "Mo-Fr 17:00-22:00; PH,Sa,Su off",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 88008082",
+      "website": "https://www.old-vineyard.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10263338309,
+    "lat": 50.0858436,
+    "lon": 8.2470276,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian;pizza",
+      "name": "Ristorante S",
+      "name:de": "Ristorante Sí"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10315142814,
+    "lat": 50.0776569,
+    "lon": 8.2335748,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "91",
+      "addr:postcode": "65185",
+      "addr:street": "Rheinstraße",
+      "amenity": "restaurant",
+      "cuisine": "burger;salad;pizza",
+      "delivery": "only",
+      "name": "Baguette House",
+      "opening_hours": "Mo-Th 16:30-02:00, Fr-Sa 11:00-03:30, Su 11:00-22:30; PH 11:00-22:30",
+      "takeaway": "yes",
+      "website": "https://www.baguettehouse.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10586805886,
+    "lat": 50.0811537,
+    "lon": 8.2308525,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "18",
+      "addr:postcode": "65183",
+      "addr:street": "Frankenstraße",
+      "amenity": "restaurant",
+      "name": "Bistro bei Bahtiyar",
+      "opening_hours": "Mo-Su 09:00-24:00",
+      "phone": "+49 157 77991067",
+      "website": "https://bistro-bei-bahtiyar.business.site"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10589115452,
+    "lat": 50.0829117,
+    "lon": 8.2315563,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "21",
+      "addr:postcode": "65183",
+      "addr:street": "Walramstraße",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "delivery": "yes",
+      "name": "Pizzeria da Petro",
+      "opening_hours": "Mo-Fr 11:00-14:30,17:00-23:00; Sa 15:00-23:00; Su 11:00-23:00; PH 11:00-23:00",
+      "website": "https://www.dapietro-wiesbaden.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10589281314,
+    "lat": 50.0820890,
+    "lon": 8.2316702,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "13",
+      "addr:postcode": "65183",
+      "addr:street": "Walramstraße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "email": "info@koefteci-wiesbaden.de",
+      "name": "Köfteci Usta 23",
+      "opening_hours": "Mo-Su 09:00-22:00",
+      "phone": "+49 176 70219486;+49 611 13756065",
+      "takeaway": "yes",
+      "website": "https://koefteci-usta-23.jimdofree.com"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10712729132,
+    "lat": 50.0826275,
+    "lon": 8.2331127,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "22",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "diet:vegan": "yes",
+      "facebook": "https://www.facebook.com/profile.php?id=100077680359911",
+      "name": "Çiğköftem",
+      "opening_hours": "Mo-Fr 10:00-21:00",
+      "phone": "+49 611 88024968",
+      "website": "https://cigkoftem.eu/filialen/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10716717878,
+    "lat": 50.0826842,
+    "lon": 8.2339302,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "16",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "name": "Sultan Restaurant",
+      "opening_hours": "Mo-Sa 10:00-21:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 16877850",
+      "website": "https://sultan-restaurant.com/12899"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10723981358,
+    "lat": 50.0827245,
+    "lon": 8.2318076,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "syrian",
+      "email": "kassionsyrien@gmail.com",
+      "name": "Kassion Restaurant",
+      "phone": "+49 176 84125722"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10724001967,
+    "lat": 50.0827312,
+    "lon": 8.2319697,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "39",
+      "addr:postcode": "65183",
+      "addr:street": "Wellritzstraße",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzeria Little Napoli",
+      "opening_hours": "Mo-Fr 17:00-03:00,Sa-Su 17:00-04:00",
+      "phone": "+49 611 16860936",
+      "takeaway": "only",
+      "website": "https://pizzeria-little-napoli.business.site"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10823064205,
+    "lat": 50.0850624,
+    "lon": 8.2405794,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "pasta",
+      "name": "Butta la pasta rosa",
+      "name:de": "Butta La Pasta Rosa",
+      "opening_hours": "Mo-Fr 11:30-18:00; Sa 11:30-16:00",
+      "phone": "+4961134119431"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10823068605,
+    "lat": 50.0857253,
+    "lon": 8.2393604,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian_pizza",
+      "indoor_seating": "yes",
+      "name": "Casa del Olive",
+      "name:de": "Casa delle Olive",
+      "opening_hours": "Tu-Fr 17:00-22:30; Su 12:00-21:00; Sa 13:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+4961116860511",
+      "website": "https://casadelleolive.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10823074505,
+    "lat": 50.0845873,
+    "lon": 8.2410945,
+    "tags": {
+      "addr:postcode": "65183",
+      "amenity": "restaurant",
+      "cuisine": "japanese;sushi",
+      "name": "Nor",
+      "name:de": "Noir Finest Sushi",
+      "opening_hours": "Mo-Su 12:00-14:45, 17:00-21:45",
+      "operator": "Anh-Kiet Ly, Van Cuong Nnguyen",
+      "website": "https://www.noir-finest-sushi-cuisine.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10840329467,
+    "lat": 50.0884388,
+    "lon": 8.2392786,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "italian;pizza",
+      "email": "info@pizzeria-depaola.de",
+      "name": "Pizzeria de Paola",
+      "opening_hours": "Mo-Fr 11:00-22:00; Su 17:00-22:00",
+      "phone": "+4961151010059",
+      "website": "https://pizzeria-depaola.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10862616476,
+    "lat": 50.0774984,
+    "lon": 8.2310613,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "115",
+      "addr:postcode": "65185",
+      "addr:street": "Rheinstraße",
+      "amenity": "restaurant",
+      "cuisine": "barbecue;korean;chicken",
+      "name": "Kokio Korean Fried Chicken",
+      "opening_hours": "Mo-Sa 16:00-21:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11073295605,
+    "lat": 50.0765279,
+    "lon": 8.2370767,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "14",
+      "addr:postcode": "65185",
+      "addr:street": "Oranienstraße",
+      "amenity": "restaurant",
+      "cuisine": "pizza",
+      "name": "Pizzeria Primavera",
+      "phone": "+49 611 39446",
+      "takeaway": "yes",
+      "website": "https://pizzeriaprimavera.net"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11073313360,
+    "lat": 50.0771493,
+    "lon": 8.2370311,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "4",
+      "addr:postcode": "65185",
+      "addr:street": "Oranienstraße",
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Café Restaurant Eli",
+      "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+      "outdoor_seating": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11093054448,
+    "lat": 50.0965534,
+    "lon": 8.2250968,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "70",
+      "addr:postcode": "65193",
+      "addr:street": "Nerotal",
+      "amenity": "restaurant",
+      "cuisine": "italian;german",
+      "name": "Café & Restaurant Leichtweiss",
+      "opening_hours": "11:30+",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 18170573",
+      "website": "https://www.leichtweiss-nerotal.de"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11134077956,
+    "lat": 50.0803186,
+    "lon": 8.2371058,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "55",
+      "addr:postcode": "65185",
+      "addr:street": "Friedrichstraße",
+      "amenity": "restaurant",
+      "name": "Takumi",
+      "opening_hours": "Mo-Fr 12:00-22:00; Sa 12:00-22:30; Su 13:00-22:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11163267305,
+    "lat": 50.0782166,
+    "lon": 8.2444873,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "sushi",
+      "level": "0",
+      "name": "Yozora17"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11578427109,
+    "lat": 50.0782110,
+    "lon": 8.2275527,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "59",
+      "addr:postcode": "65197",
+      "addr:street": "Dotzheimer Straße",
+      "amenity": "restaurant",
+      "check_date:opening_hours": "2025-03-30",
+      "cuisine": "asian",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "email": "sanyfoodwiesbaden@gmail.com",
+      "indoor_seating": "yes",
+      "name": "Sany Food",
+      "opening_hours": "Mo-Sa 11:30-21:15",
+      "outdoor_seating": "no",
+      "phone": "+49 611 16860727",
+      "takeaway": "yes",
+      "website": "https://www.sanyfood.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11816144570,
+    "lat": 50.0805950,
+    "lon": 8.2394729,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "asian",
+      "name": "Nudelbar",
+      "name:de": "Nudelbar (Vietnamesisch)",
+      "opening_hours": "Mo-Sa 11:00-21:00",
+      "website": "https://www.nudelbarwiesbaden.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11933221569,
+    "lat": 50.0849393,
+    "lon": 8.2261936,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "29",
+      "addr:postcode": "65195",
+      "addr:street": "Seerobenstraße",
+      "amenity": "restaurant",
+      "cuisine": "indian",
+      "name": "Rangoli",
+      "opening_hours": "Mo-Su 11:30-22:30",
+      "phone": "+49 611 98750891",
+      "website": "https://rangoli-restaurant.com"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11989992682,
+    "lat": 50.0785754,
+    "lon": 8.2455545,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "1",
+      "addr:street": "Wilhelmstraße",
+      "amenity": "restaurant",
+      "email": "info@rue-1.com",
+      "name": "rue 1",
+      "website": "https://www.gollners.de/rue1-by-gollners"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11999400585,
+    "lat": 50.0745661,
+    "lon": 8.2379358,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "17a",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "delivery": "Mo-Fr 11:30-14:30",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "email": "hallo@kantiin.de",
+      "indoor_seating": "yes",
+      "name": "kantiin",
+      "opening_hours": "Mo-Fr 11:30-14:30",
+      "operator": "nju kantiin GmbH",
+      "outdoor_seating": "yes",
+      "payment:cash": "yes",
+      "payment:credit_cards": "yes",
+      "payment:debit_cards": "yes",
+      "phone": "061194581692",
+      "smoking": "no",
+      "takeaway": "yes",
+      "website": "https://kantiin.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12081633569,
+    "lat": 50.0823811,
+    "lon": 8.2438633,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "argentinian;brazilian;caribbean;mexican;peruvian",
+      "diet:vegan": "yes",
+      "name": "Alebrijes",
+      "name:de": "Alebrijes - latin plant based food"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12090669669,
+    "lat": 50.0846409,
+    "lon": 8.2401867,
+    "tags": {
+      "addr:postcode": "65183",
+      "amenity": "restaurant",
+      "cuisine": "italian_pizza",
+      "diet:vegan": "no",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "remos",
+      "opening_hours": "Mo-Th 00:00-24:00; Fr-Sa 11:30-00:00; Su 12:00-22:00",
+      "outdoor_seating": "yes",
+      "phone": "+4961158021152",
+      "website": "https://remos-restaurants.de/restaurants/wiesbaden/",
+      "website:menu": "https://remos-restaurants.de/speisekarte/wiesbaden/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12319977882,
+    "lat": 50.0869551,
+    "lon": 8.2565907,
+    "tags": {
+      "addr:housenumber": "64",
+      "addr:street": "Sonnenberger Straße",
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "name": "Goc Da",
+      "phone": "+49 611 51053105",
+      "website": "https://www.gocda.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12360998597,
+    "lat": 50.0830369,
+    "lon": 8.2403339,
+    "tags": {
+      "addr:housenumber": "18",
+      "addr:street": "Grabenstraße",
+      "amenity": "restaurant",
+      "cuisine": "thai",
+      "indoor_seating": "yes",
+      "name": "Sontaya",
+      "operator": "Jack Ekalak",
+      "phone": "+49 611 45036723",
+      "website": "https://sontaya.de/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12467271633,
+    "lat": 50.0829739,
+    "lon": 8.2368123,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "turkish",
+      "name": "Istanbul Restaurant"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12638642303,
+    "lat": 50.0871695,
+    "lon": 8.2337387,
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "10",
+      "addr:postcode": "65183",
+      "addr:street": "Kastellstraße",
+      "amenity": "restaurant",
+      "bar": "yes",
+      "cuisine": "pizza;italian_pizza;burger;tapas;kebab;salad;pasta",
+      "delivery": "yes",
+      "diet:meat": "yes",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "loc_name": "Pizzeria bei Simon - Pizza & Pasta Lieferdienst Wiesbaden",
+      "name": "Pizzeria bei Simon",
+      "opening_hours": "Tu-Fr 11:00-22:00, Sa-Su 17:00-22:00",
+      "phone": "+49 611 53268588",
+      "takeaway": "yes",
+      "website": "https://pizzeria-simon.de/",
+      "website:menu": "https://bestellen.pizzeria-simon.de/menu",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12812391704,
+    "lat": 50.0782601,
+    "lon": 8.2283747,
+    "tags": {
+      "amenity": "restaurant",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "name": "NaSiam",
+      "opening_hours": "Mo,We-Sa 17:00-22:00; Su 15:00-22:00",
+      "outdoor_seating": "yes",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12834560773,
+    "lat": 50.0835971,
+    "lon": 8.2395914,
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "vietnamese",
+      "diet:vegetarian": "yes",
+      "name": "Pho Viet Nam"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12844254234,
+    "lat": 50.0639897,
+    "lon": 8.2341890,
+    "tags": {
+      "amenity": "restaurant",
+      "name": "Olympic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 12844286130,
+    "lat": 50.0680486,
+    "lon": 8.2214632,
+    "tags": {
+      "amenity": "restaurant",
+      "indoor_seating": "yes",
+      "name": "Lavanta Kitchen",
+      "outdoor_seating": "no"
+    }
+  },
+  {
+    "type": "way",
+    "id": 33784847,
+    "bounds": {
+      "minlat": 50.0709690,
+      "minlon": 8.2510659,
+      "maxlat": 50.0712476,
+      "maxlon": 8.2515019
+    },
+    "nodes": [
+      386856695,
+      386856696,
+      386856697,
+      386856698,
+      727954380,
+      386856695
+    ],
+    "geometry": [
+      { "lat": 50.0712231, "lon": 8.2510659 },
+      { "lat": 50.0712476, "lon": 8.2514640 },
+      { "lat": 50.0709934, "lon": 8.2515019 },
+      { "lat": 50.0709690, "lon": 8.2511038 },
+      { "lat": 50.0711868, "lon": 8.2510684 },
+      { "lat": 50.0712231, "lon": 8.2510659 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "11",
+      "addr:postcode": "65189",
+      "addr:street": "Gustav-Stresemann-Ring",
+      "amenity": "restaurant",
+      "building": "yes",
+      "check_date": "2024-09-24",
+      "name": "Kasino Statistisches Bundesamt",
+      "wheelchair": "yes",
+      "wheelchair:description": "Das Kasino des Statistischen Bundesamtes ist wegen Sanierungsarbeiten derzeit geschlossen. Danach ist eine barrierefreie Zufahrt möglich. Die Wiedereröffnung ist für November 2017 geplant."
+    }
+  },
+  {
+    "type": "way",
+    "id": 56915142,
+    "bounds": {
+      "minlat": 50.0816864,
+      "minlon": 8.2428683,
+      "maxlat": 50.0818550,
+      "maxlon": 8.2434381
+    },
+    "nodes": [
+      710876691,
+      4294456290,
+      3954128942,
+      3954128945,
+      710876691
+    ],
+    "geometry": [
+      { "lat": 50.0817192, "lon": 8.2434381 },
+      { "lat": 50.0816864, "lon": 8.2428892 },
+      { "lat": 50.0818284, "lon": 8.2428683 },
+      { "lat": 50.0818550, "lon": 8.2434182 },
+      { "lat": 50.0817192, "lon": 8.2434381 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "4",
+      "addr:street": "Marktplatz",
+      "amenity": "restaurant",
+      "cuisine": "regional",
+      "diet:vegetarian": "yes",
+      "indoor_seating": "yes",
+      "level": "1",
+      "name": "Lumen",
+      "opening_hours": "Mo-Th 09:00-01:00, Fr-Sa 09:00-02:00, Su 10:00-01:00",
+      "outdoor_seating": "yes",
+      "source": "Aerowest hidef-bilder, georeferenziert auf 5cm genau",
+      "toilets:wheelchair": "yes",
+      "website": "https://www.lumen-wiesbaden.de/",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 61653611,
+    "bounds": {
+      "minlat": 50.0987656,
+      "minlon": 8.2292651,
+      "maxlat": 50.0989011,
+      "maxlon": 8.2294576
+    },
+    "nodes": [
+      768603849,
+      4565158409,
+      768603852,
+      2437667721,
+      2437667718,
+      768603853,
+      768603854,
+      4565158408,
+      768603849
+    ],
+    "geometry": [
+      { "lat": 50.0987836, "lon": 8.2294576 },
+      { "lat": 50.0988035, "lon": 8.2294529 },
+      { "lat": 50.0989011, "lon": 8.2294297 },
+      { "lat": 50.0988949, "lon": 8.2293667 },
+      { "lat": 50.0988148, "lon": 8.2293849 },
+      { "lat": 50.0988036, "lon": 8.2292651 },
+      { "lat": 50.0987656, "lon": 8.2292733 },
+      { "lat": 50.0987753, "lon": 8.2293729 },
+      { "lat": 50.0987836, "lon": 8.2294576 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "1",
+      "addr:place": "Neroberg",
+      "addr:postcode": "65193",
+      "amenity": "restaurant",
+      "building": "yes",
+      "check_date": "2024-05-06",
+      "indoor_seating": "yes",
+      "name": "Der Turm",
+      "opening_hours": "Tu-Su 11:00-22:00",
+      "operator": "Hotel- und Gaststättenbetriebsgesellschaft mbH",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 525100",
+      "source": "bing sat",
+      "website": "https://wagner-gastronomie.de/der-turm.html",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "way",
+    "id": 62711122,
+    "bounds": {
+      "minlat": 50.0747802,
+      "minlon": 8.2528369,
+      "maxlat": 50.0750961,
+      "maxlon": 8.2533161
+    },
+    "nodes": [
+      781375012,
+      781374935,
+      781374942,
+      781374971,
+      781374969,
+      781375009,
+      781375022,
+      781374939,
+      781374950,
+      781375012
+    ],
+    "geometry": [
+      { "lat": 50.0747802, "lon": 8.2530786 },
+      { "lat": 50.0748073, "lon": 8.2530411 },
+      { "lat": 50.0749158, "lon": 8.2528911 },
+      { "lat": 50.0749478, "lon": 8.2529471 },
+      { "lat": 50.0750275, "lon": 8.2528369 },
+      { "lat": 50.0750961, "lon": 8.2529574 },
+      { "lat": 50.0750204, "lon": 8.2530622 },
+      { "lat": 50.0750551, "lon": 8.2531231 },
+      { "lat": 50.0749155, "lon": 8.2533161 },
+      { "lat": 50.0747802, "lon": 8.2530786 }
+    ],
+    "tags": {
+      "amenity": "restaurant",
+      "building": "commercial",
+      "name": "Die Hütte",
+      "opening_hours": "Mo-Sa 16:00-23:00",
+      "wheelchair": "no",
+      "wheelchair:description": "mehrere Stufen vor dem Eingang. Im Sommer kann man auf der Terrasse sitzen, die zugänglich ist."
+    }
+  },
+  {
+    "type": "way",
+    "id": 74212095,
+    "bounds": {
+      "minlat": 50.0854010,
+      "minlon": 8.2504568,
+      "maxlat": 50.0856214,
+      "maxlon": 8.2507810
+    },
+    "nodes": [
+      877795708,
+      877795710,
+      877795715,
+      877795717,
+      877795708
+    ],
+    "geometry": [
+      { "lat": 50.0854010, "lon": 8.2507393 },
+      { "lat": 50.0854257, "lon": 8.2504568 },
+      { "lat": 50.0856214, "lon": 8.2504984 },
+      { "lat": 50.0855967, "lon": 8.2507810 },
+      { "lat": 50.0854010, "lon": 8.2507393 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "32",
+      "addr:street": "Sonnenberger Straße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "name": "Havana",
+      "opening_hours": "Su-Th 17:00-01:00, Fr-Sa 17:00-02:00",
+      "phone": "+49 611 5990266",
+      "source": "Yahoo",
+      "website": "https://havana-restaurant.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "way",
+    "id": 111268567,
+    "bounds": {
+      "minlat": 50.0849262,
+      "minlon": 8.2398432,
+      "maxlat": 50.0851615,
+      "maxlon": 8.2402755
+    },
+    "nodes": [
+      1268154978,
+      1268155116,
+      1268155138,
+      9769914146,
+      1268154999,
+      1268155180,
+      1268155052,
+      1268155111,
+      1268155124,
+      1268154978
+    ],
+    "geometry": [
+      { "lat": 50.0849723, "lon": 8.2402755 },
+      { "lat": 50.0849262, "lon": 8.2401863 },
+      { "lat": 50.0849781, "lon": 8.2400563 },
+      { "lat": 50.0850269, "lon": 8.2399366 },
+      { "lat": 50.0850650, "lon": 8.2398432 },
+      { "lat": 50.0851615, "lon": 8.2399294 },
+      { "lat": 50.0851197, "lon": 8.2400380 },
+      { "lat": 50.0850277, "lon": 8.2402721 },
+      { "lat": 50.0849966, "lon": 8.2402450 },
+      { "lat": 50.0849723, "lon": 8.2402755 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "38-40",
+      "addr:postcode": "65183",
+      "addr:street": "Langgasse",
+      "amenity": "restaurant",
+      "brand": "ALEX",
+      "brand:wikidata": "Q18018122",
+      "building": "yes",
+      "contact:phone": "+49 611 34127-40",
+      "contact:website": "dein-alex.de",
+      "cuisine": "breakfast;burger;international;steak_house",
+      "name": "ALEX",
+      "opening_hours": "Mo-Th 08:30-01:00, Fr,Sa 08:30-02:00, Su,PH 09:00-01:00",
+      "operator": "ALEX Gaststätten GmbH & Co. KG",
+      "payment:mastercard": "yes",
+      "website": "https://www.dein-alex.de/wiesbaden",
+      "wheelchair": "limited",
+      "wheelchair:description:de": "ebenerdig zugänglich, aber kein barrierefreies WC"
+    }
+  },
+  {
+    "type": "way",
+    "id": 111268588,
+    "bounds": {
+      "minlat": 50.0867472,
+      "minlon": 8.2416929,
+      "maxlat": 50.0871630,
+      "maxlon": 8.2423414
+    },
+    "nodes": [
+      1268155219,
+      1268155092,
+      1268155019,
+      1863195591,
+      1863195589,
+      790381196,
+      1863195585,
+      1863195587,
+      1863195583,
+      1268155118,
+      1268155114,
+      1268155219
+    ],
+    "geometry": [
+      { "lat": 50.0871630, "lon": 8.2422269 },
+      { "lat": 50.0871500, "lon": 8.2422439 },
+      { "lat": 50.0870887, "lon": 8.2423414 },
+      { "lat": 50.0869934, "lon": 8.2421921 },
+      { "lat": 50.0869774, "lon": 8.2422168 },
+      { "lat": 50.0869015, "lon": 8.2420978 },
+      { "lat": 50.0868226, "lon": 8.2419740 },
+      { "lat": 50.0868377, "lon": 8.2419507 },
+      { "lat": 50.0867472, "lon": 8.2418088 },
+      { "lat": 50.0868092, "lon": 8.2417132 },
+      { "lat": 50.0868224, "lon": 8.2416929 },
+      { "lat": 50.0871630, "lon": 8.2422269 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housename": "Arkadenhalle",
+      "addr:housenumber": "3",
+      "addr:postcode": "65183",
+      "addr:street": "Kochbrunnenplatz",
+      "amenity": "restaurant",
+      "brand": "Cafe Del Sol",
+      "brand:wikidata": "Q17310688",
+      "building": "retail",
+      "building:levels": "1",
+      "cuisine": "international",
+      "indoor_seating": "yes",
+      "name": "Cafe Del Sol",
+      "opening_hours": "Su-Th 09:00-24:00; Fr-Sa 09:00-01:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 92798079",
+      "roof:levels": "0",
+      "website": "https://www.cafedelsol.de/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "way",
+    "id": 167840620,
+    "bounds": {
+      "minlat": 50.0866704,
+      "minlon": 8.2592746,
+      "maxlat": 50.0869032,
+      "maxlon": 8.2595032
+    },
+    "nodes": [
+      1791881579,
+      4412269627,
+      4412269626,
+      4412269623,
+      1791881495,
+      1791881585,
+      1791881579
+    ],
+    "geometry": [
+      { "lat": 50.0868856, "lon": 8.2594594 },
+      { "lat": 50.0867562, "lon": 8.2594050 },
+      { "lat": 50.0867392, "lon": 8.2595032 },
+      { "lat": 50.0866704, "lon": 8.2594743 },
+      { "lat": 50.0867049, "lon": 8.2592746 },
+      { "lat": 50.0869032, "lon": 8.2593578 },
+      { "lat": 50.0868856, "lon": 8.2594594 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "42a",
+      "addr:street": "Parkstraße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "email": "ristorante@la-rucola.de",
+      "name": "La Rucola",
+      "phone": "+49 (0) 6 11 - 376300"
+    }
+  },
+  {
+    "type": "way",
+    "id": 175765846,
+    "bounds": {
+      "minlat": 50.0847438,
+      "minlon": 8.2423906,
+      "maxlat": 50.0848528,
+      "maxlon": 8.2426881
+    },
+    "nodes": [
+      1863194979,
+      1863194980,
+      1863195008,
+      1863195024,
+      1863195028,
+      1863194981,
+      1268179106,
+      1863194977,
+      1268179105,
+      1863194974,
+      1863194979
+    ],
+    "geometry": [
+      { "lat": 50.0847884, "lon": 8.2426881 },
+      { "lat": 50.0847932, "lon": 8.2426026 },
+      { "lat": 50.0848285, "lon": 8.2426067 },
+      { "lat": 50.0848441, "lon": 8.2426080 },
+      { "lat": 50.0848528, "lon": 8.2424838 },
+      { "lat": 50.0848056, "lon": 8.2424692 },
+      { "lat": 50.0848140, "lon": 8.2424419 },
+      { "lat": 50.0847577, "lon": 8.2423906 },
+      { "lat": 50.0847443, "lon": 8.2426744 },
+      { "lat": 50.0847438, "lon": 8.2426848 },
+      { "lat": 50.0847884, "lon": 8.2426881 }
+    ],
+    "tags": {
+      "addr:housenumber": "7",
+      "addr:street": "Webergasse",
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "mediterranean",
+      "description": "Täglich durchgehend warme Küche bis 23 Uhr.",
+      "email": "info@karims.de",
+      "name": "Karim's",
+      "opening_hours": "10:00+",
+      "operator": "Abdelkrim M'haimdat",
+      "phone": "+49 611 9590608",
+      "toilets:wheelchair": "no",
+      "website": "https://www.karims.de/",
+      "wheelchair": "limited"
+    }
+  },
+  {
+    "type": "way",
+    "id": 176709314,
+    "bounds": {
+      "minlat": 50.0776202,
+      "minlon": 8.2336475,
+      "maxlat": 50.0777835,
+      "maxlon": 8.2338105
+    },
+    "nodes": [
+      1871855225,
+      1871855240,
+      1404629680,
+      1871855027,
+      1871855335,
+      1871855361,
+      1871855363,
+      1871855253,
+      1871855249,
+      1871855225
+    ],
+    "geometry": [
+      { "lat": 50.0777314, "lon": 8.2336997 },
+      { "lat": 50.0777366, "lon": 8.2337979 },
+      { "lat": 50.0776282, "lon": 8.2338105 },
+      { "lat": 50.0776202, "lon": 8.2336648 },
+      { "lat": 50.0777805, "lon": 8.2336475 },
+      { "lat": 50.0777828, "lon": 8.2336907 },
+      { "lat": 50.0777835, "lon": 8.2337084 },
+      { "lat": 50.0777542, "lon": 8.2337122 },
+      { "lat": 50.0777412, "lon": 8.2336887 },
+      { "lat": 50.0777314, "lon": 8.2336997 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "89",
+      "addr:postcode": "65185",
+      "addr:street": "Rheinstraße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "italian",
+      "delivery": "yes",
+      "name": "Pizzeria Kiara",
+      "opening_hours": "Mo-Fr 11:00-23:00; Su 17:00-23:00",
+      "phone": "+49 611 34186986;+49 151 71171777",
+      "smoking": "no",
+      "takeaway": "yes",
+      "website": "https://www.kiara-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "way",
+    "id": 177010208,
+    "bounds": {
+      "minlat": 50.0771003,
+      "minlon": 8.2380685,
+      "maxlat": 50.0772315,
+      "maxlon": 8.2382605
+    },
+    "nodes": [
+      1874815892,
+      1874815814,
+      1874815808,
+      1874815835,
+      1874815833,
+      1874815857,
+      1874815858,
+      1874815886,
+      1874815892
+    ],
+    "geometry": [
+      { "lat": 50.0772315, "lon": 8.2382464 },
+      { "lat": 50.0771081, "lon": 8.2382605 },
+      { "lat": 50.0771003, "lon": 8.2380931 },
+      { "lat": 50.0771544, "lon": 8.2380869 },
+      { "lat": 50.0771537, "lon": 8.2380721 },
+      { "lat": 50.0771860, "lon": 8.2380685 },
+      { "lat": 50.0771870, "lon": 8.2380889 },
+      { "lat": 50.0772241, "lon": 8.2380846 },
+      { "lat": 50.0772315, "lon": 8.2382464 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "3",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "thai",
+      "name": "Bai Bua",
+      "opening_hours": "12:00-14:30,17:00-22:00; Sa 12:00-22:00; Su 17:00-21:00",
+      "operator": "Udo Meichsner",
+      "phone": "+49 611 90067623",
+      "takeaway": "yes",
+      "website": "http://www.baibua-wiesbaden.de/"
+    }
+  },
+  {
+    "type": "way",
+    "id": 178025894,
+    "bounds": {
+      "minlat": 50.0721990,
+      "minlon": 8.2386701,
+      "maxlat": 50.0723333,
+      "maxlon": 8.2388784
+    },
+    "nodes": [
+      1884181130,
+      1884180959,
+      1884180970,
+      1884181149,
+      1884181130
+    ],
+    "geometry": [
+      { "lat": 50.0723243, "lon": 8.2386701 },
+      { "lat": 50.0721990, "lon": 8.2386843 },
+      { "lat": 50.0722081, "lon": 8.2388784 },
+      { "lat": 50.0723333, "lon": 8.2388642 },
+      { "lat": 50.0723243, "lon": 8.2386701 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "45",
+      "addr:postcode": "65185",
+      "addr:street": "Moritzstraße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "turkish",
+      "name": "Canpolat Döner",
+      "opening_hours": "Su-Th 09:00-00:00, Fr,Sa 09:00-01:00",
+      "outdoor_seating": "yes",
+      "phone": "+49 611 3602550",
+      "website": "https://www.city-kebap-xxl.de",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "way",
+    "id": 220571008,
+    "bounds": {
+      "minlat": 50.0878667,
+      "minlon": 8.2204794,
+      "maxlat": 50.0881007,
+      "maxlon": 8.2208539
+    },
+    "nodes": [
+      2296803476,
+      2296803477,
+      2296803478,
+      2296803479,
+      2296803476
+    ],
+    "geometry": [
+      { "lat": 50.0880382, "lon": 8.2204794 },
+      { "lat": 50.0878667, "lon": 8.2207617 },
+      { "lat": 50.0879291, "lon": 8.2208539 },
+      { "lat": 50.0881007, "lon": 8.2205716 },
+      { "lat": 50.0880382, "lon": 8.2204794 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "35",
+      "addr:postcode": "65195",
+      "addr:street": "Aarstraße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "greek",
+      "dog": "no",
+      "name": "Schleifmühle Bacchus",
+      "opening_hours": "Th-Mo 11:30-14:30,17:30-23:30; We 17:30-23:30",
+      "toilets:wheelchair": "no",
+      "website": "https://www.restaurant-schleifmuehle.de/",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "way",
+    "id": 335387626,
+    "bounds": {
+      "minlat": 50.0873508,
+      "minlon": 8.2207252,
+      "maxlat": 50.0875105,
+      "maxlon": 8.2209747
+    },
+    "nodes": [
+      3425022350,
+      3425022365,
+      3425022384,
+      3425022364,
+      3425022350
+    ],
+    "geometry": [
+      { "lat": 50.0873508, "lon": 8.2208576 },
+      { "lat": 50.0874306, "lon": 8.2209747 },
+      { "lat": 50.0875105, "lon": 8.2208423 },
+      { "lat": 50.0874306, "lon": 8.2207252 },
+      { "lat": 50.0873508, "lon": 8.2208576 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:housenumber": "30",
+      "addr:postcode": "65195",
+      "addr:street": "Aarstraße",
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "italian",
+      "name": "Ristorante Calabria",
+      "opening_hours": "Tu-Su 11:30-14:30,17:30-23:00",
+      "phone": "+496119450607",
+      "website": "http://ristorante-calabria-wiesbaden.de"
+    }
+  },
+  {
+    "type": "way",
+    "id": 539697269,
+    "bounds": {
+      "minlat": 50.0709110,
+      "minlon": 8.2432522,
+      "maxlat": 50.0710463,
+      "maxlon": 8.2435093
+    },
+    "nodes": [
+      5221932798,
+      5221932797,
+      5221932796,
+      5221932795,
+      5221932794,
+      5221932805,
+      5221932793,
+      5221932798
+    ],
+    "geometry": [
+      { "lat": 50.0710463, "lon": 8.2434632 },
+      { "lat": 50.0710054, "lon": 8.2432923 },
+      { "lat": 50.0709665, "lon": 8.2433149 },
+      { "lat": 50.0709515, "lon": 8.2432522 },
+      { "lat": 50.0709110, "lon": 8.2432757 },
+      { "lat": 50.0709258, "lon": 8.2433377 },
+      { "lat": 50.0709669, "lon": 8.2435093 },
+      { "lat": 50.0710463, "lon": 8.2434632 }
+    ],
+    "tags": {
+      "amenity": "restaurant",
+      "diet:vegan": "yes",
+      "diet:vegetarian": "yes",
+      "indoor": "room",
+      "indoor_seating": "yes",
+      "level": "0",
+      "name": "Chillers",
+      "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-23:00; Sa 12:00-23:00; Su 12:00-22:00",
+      "outdoor_seating": "yes",
+      "smoking": "outside",
+      "toilets:wheelchair": "no",
+      "website": "https://www.chillers-wiesbaden.com/",
+      "website:menu": "https://www.chillers-wiesbaden.com/images/3wm/chillers_speisekarte_wiesbaden.pdf",
+      "wheelchair": "yes"
+    }
+  },
+  {
+    "type": "way",
+    "id": 542893730,
+    "bounds": {
+      "minlat": 50.0835536,
+      "minlon": 8.2385425,
+      "maxlat": 50.0837550,
+      "maxlon": 8.2387557
+    },
+    "nodes": [
+      5248445795,
+      5248445794,
+      5248445793,
+      5248445792,
+      5248445791,
+      5248445790,
+      5248445789,
+      5248445788,
+      5248445787,
+      5248445786,
+      5248445785,
+      6061809263,
+      5248445784,
+      1862734115,
+      5248445795
+    ],
+    "geometry": [
+      { "lat": 50.0837341, "lon": 8.2387557 },
+      { "lat": 50.0837550, "lon": 8.2386853 },
+      { "lat": 50.0837481, "lon": 8.2386504 },
+      { "lat": 50.0837154, "lon": 8.2386263 },
+      { "lat": 50.0836922, "lon": 8.2386370 },
+      { "lat": 50.0836414, "lon": 8.2385981 },
+      { "lat": 50.0836509, "lon": 8.2385699 },
+      { "lat": 50.0836259, "lon": 8.2385485 },
+      { "lat": 50.0836139, "lon": 8.2385780 },
+      { "lat": 50.0835687, "lon": 8.2385425 },
+      { "lat": 50.0835536, "lon": 8.2385880 },
+      { "lat": 50.0835679, "lon": 8.2385990 },
+      { "lat": 50.0835893, "lon": 8.2386155 },
+      { "lat": 50.0835888, "lon": 8.2386419 },
+      { "lat": 50.0837341, "lon": 8.2387557 }
+    ],
+    "tags": {
+      "addr:city": "Wiesbaden",
+      "addr:country": "DE",
+      "addr:housenumber": "3",
+      "addr:postcode": "65183",
+      "addr:street": "Schützenhofstraße",
+      "amenity": "restaurant",
+      "bar": "yes",
+      "building": "yes",
+      "contact:email": "info@tanitos.de",
+      "contact:facebook": "https://www.facebook.com/search/top/?q=Tanitos%20Wiesbaden",
+      "contact:phone": "+49 611 45048350",
+      "cuisine": "tex-mex",
+      "diet:vegetarian": "yes",
+      "name": "Tanitos",
+      "opening_hours": "Mo-Th 16:00-00:00; Fr-Sa 12:00-02:00; Su,PH 12:00-00:00",
+      "phone": "+49 611 45048350",
+      "reservation": "yes",
+      "takeaway": "yes",
+      "website": "https://www.tanitos.com",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "way",
+    "id": 605068468,
+    "bounds": {
+      "minlat": 50.0789052,
+      "minlon": 8.2477891,
+      "maxlat": 50.0790127,
+      "maxlon": 8.2479944
+    },
+    "nodes": [
+      1009524128,
+      5739779958,
+      6012619118,
+      6012619117,
+      5739779959,
+      5739779960,
+      1009524128
+    ],
+    "geometry": [
+      { "lat": 50.0790032, "lon": 8.2477891 },
+      { "lat": 50.0790127, "lon": 8.2479066 },
+      { "lat": 50.0789507, "lon": 8.2479188 },
+      { "lat": 50.0789562, "lon": 8.2479873 },
+      { "lat": 50.0789203, "lon": 8.2479944 },
+      { "lat": 50.0789052, "lon": 8.2478085 },
+      { "lat": 50.0790032, "lon": 8.2477891 }
+    ],
+    "tags": {
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "pizza;italian",
+      "name": "Tutti Frutti",
+      "opening_hours": "Mo-Fr 11:00-23:00; Sa,Su 12:30-22:00",
+      "phone": "+49 611 60979572",
+      "toilets:wheelchair": "no",
+      "website": "http://www.tuttifruttihalligalli.de",
+      "wheelchair": "limited"
+    }
+  }
+  
+    ]
+  }
+  

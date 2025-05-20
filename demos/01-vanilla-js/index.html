@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>Wiesbaden Lunchfinder</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 </head>
 
 <body>
-  <script type="module" src="./src/main.ts"></script>
   <main class="container">
     <section>
-      <h1>Wiesbaden Lunchfinder</h1>
-      <select name="current-location" aria-label="Select your current location" required>
+      <h1>🍕 Wiesbaden Lunchfinder 🍕</h1>
+      <label for="location-selector">Your location:</label>
+      <select id="location-selector" name="current-location" aria-label="Select your current location" required>
         <option selected disabled value="">
           Select your office
         </option>
@@ -30,6 +31,12 @@
       </div>
     </section>
   </main>
+  
+  <!-- JavaScript files in the correct order -->
+  <script src="./src/office-locations.js"></script>
+  <script src="./src/api.js"></script>
+  <script src="./src/ui.js"></script>
+  <script src="./src/main.js"></script>
 </body>
 
 </html>

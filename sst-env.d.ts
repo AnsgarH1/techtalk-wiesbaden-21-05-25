@@ -5,6 +5,31 @@
 
 declare module "sst" {
   export interface Resource {
+    "Demo01VanillaJs": {
+      "type": "sst.aws.StaticSite"
+      "url": string
+    }
+    "Demo02VuejseSpa": {
+      "type": "sst.aws.StaticSite"
+      "url": string
+    }
+    "LunchFinderApi": {
+      "name": string
+      "type": "sst.aws.Function"
+      "url": string
+    }
+    "LunchfinderRouter": {
+      "type": "sst.aws.Router"
+      "url": string
+    }
+    "Slides": {
+      "type": "sst.aws.StaticSite"
+      "url": string
+    }
+    "SlidesRouter": {
+      "type": "sst.aws.Router"
+      "url": string
+    }
   }
 }
 /// <reference path="sst-env.d.ts" />
