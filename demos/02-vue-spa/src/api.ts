@@ -1,7 +1,7 @@
 import type { Restaurant } from './types'
 import type { OfficeLocation } from './office-locations'
 
-const API_BASE_URL = "http://localhost:4002/api";
+const API_BASE_URL = "https://api.techtalk.ansgar.app/api";
 
 /**
  * Fetches lunch places for a given location

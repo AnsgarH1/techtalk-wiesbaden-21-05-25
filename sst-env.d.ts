@@ -5,6 +5,10 @@
 
 declare module "sst" {
   export interface Resource {
+    "ApiRouter": {
+      "type": "sst.aws.Router"
+      "url": string
+    }
     "Demo01VanillaJs": {
       "type": "sst.aws.StaticSite"
       "url": string

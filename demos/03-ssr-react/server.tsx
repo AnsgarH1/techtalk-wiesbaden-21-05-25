@@ -1,22 +1,28 @@
+import { serve } from "bun";
+
 import { renderToReadableStream } from "react-dom/server";
-import { stream } from "hono/streaming"
 import { Index } from "./src";
-import { Hono } from "hono";
 
-console.log("starting server...");
+Bun.build({ entrypoints: [import.meta.dir + "/hydrate.tsx"], outdir: "dist" });
 
+const server = serve({
+  routes: {
+    "/": async () => {
+      const stream = await renderToReadableStream(<Index />, {
+        bootstrapScripts: ["/hydrate.js"],
+      });
 
-const app = new Hono().basePath("/demos/03-ssr-react");
+      return new Response(stream, {
+        headers: { "Content-Type": "text/html" },
+      });
+    },
+    "/hydrate.js": async () => {
+      console.log("Serving hydrate.js");
+      return new Response(Bun.file("dist/hydrate.js"));
+    },
+  },
 
-app.get("/", async (c) => {
-    return stream(c, async (stream) => {
-        console.log("rendering index")
-        const reactReadableStream = await renderToReadableStream(<Index />, {
-            bootstrapScripts: ["dist/hydrate.js"],
-        });
-
-        await stream.pipe(reactReadableStream)
-    })
+  development: true,
 });
 
-export default app;
+console.log(`🚀 Server running at ${server.url}`);

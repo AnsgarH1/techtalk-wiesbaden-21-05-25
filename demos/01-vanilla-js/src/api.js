@@ -1,4 +1,4 @@
-const API_BASE_URL = window.location.hostname === "127.0.0.1" ? "http://localhost:4002" : window.location.origin;
+const API_BASE_URL = "https://api.techtalk.ansgar.app/api";
 /**
  * Fetches lunch places for a given location
  * @param {Object} location - The office location

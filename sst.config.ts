@@ -13,35 +13,30 @@ export default $config({
   async run() {
 
 
-    const slidesRouter = new sst.aws.Router("SlidesRouter", {
-      domain: {
-        name: $app.stage === "production"
-          ? "techtalk-slides.ansgar.app"
-          : `${$app.stage}-preview-techtalk-slides.ansgar.app`,
-        dns: sst.cloudflare.dns(),
-      },
-    });
+
 
     const slides = new sst.aws.StaticSite("Slides", {
-      path: "slides",
+      path: "slides/",
       build: {
-        command: "bun run build:slides",
-        output: "slides/dist",
+        command: "bun run build",
+        output: "dist",
       },
       dev: {
-        command: "bun run dev:slides",
+        command: "bun run dev",
       },
-      router: {
-        instance: slidesRouter,
-        path: "/",
-      }
+      domain: {
+        name: "slides.techtalk.ansgar.app",
+        dns: sst.cloudflare.dns(),
+      },
+
+
     });
 
-    const router = new sst.aws.Router("LunchfinderRouter", {
+    const router = new sst.aws.Router("ApiRouter", {
       domain: {
         name: $app.stage === "production"
-          ? "lunchfinder.ansgar.app"
-          : `${$app.stage}-preview.lunchfinder.ansgar.app`,
+          ? "api.techtalk.ansgar.app"
+          : `${$app.stage}-apitechtalk.ansgar.app`,
         dns: sst.cloudflare.dns(),
       },
     });
@@ -59,25 +54,25 @@ export default $config({
 
     const demo01_vanilla_js = new sst.aws.StaticSite("Demo01VanillaJs", {
       path: "demos/01-vanilla-js",
-      router: {
-        instance: router,
-        path: "/",
+      domain: {
+        name: "demo-01.techtalk.ansgar.app",
+        dns: sst.cloudflare.dns(),
       }
     });
 
     const demo02_vue_spa = new sst.aws.StaticSite("Demo02VuejseSpa", {
       path: "demos/02-vue-spa",
       build: {
-        command: "bun run build:vue",
-        output: "demos/02-vue-spa/dist",
+        command: "bun run build",
+        output: "dist",
       },
-      
+
       dev: {
-        command: "bun run dev:vue",
+        command: "bun run dev",
       },
-      router: {
-        instance: router,
-        path: "/demos/02-vue-spa",
+      domain: {
+        name: "demo-02.techtalk.ansgar.app",
+        dns: sst.cloudflare.dns(),
       }
     });
 

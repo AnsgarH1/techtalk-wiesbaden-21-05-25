@@ -10,7 +10,20 @@ const app = new OpenAPIHono().basePath("/api");
 
 
 
-app.use("*", cors())
+app.use("*", cors({
+  origin: (origin, c) => {
+    if (origin && (origin.endsWith('.mydomain.com') || origin === 'https://mydomain.com')) {
+      return origin;
+    }
+    // You can also return a specific origin for non-matching requests if needed,
+    // or return undefined to disallow the request.
+    return undefined;
+  },
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Specify allowed methods
+  allowHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
+  credentials: true, // Allow credentials if needed
+}))
+
 app.use(trimTrailingSlash())
 app.doc("/doc", (c) => ({
   openapi: "3.1.0",

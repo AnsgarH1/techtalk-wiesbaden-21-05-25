@@ -18,3 +18,4 @@ export const officeLocations = {
 } as const;
 
 export type OfficeLocationId =  keyof typeof officeLocations;
+export type OfficeLocation = typeof officeLocations[OfficeLocationId];

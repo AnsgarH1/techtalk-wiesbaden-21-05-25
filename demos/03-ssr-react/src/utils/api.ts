@@ -1,9 +1,9 @@
 
-import { OfficeLocation } from "./office-locations";
+  import { OfficeLocation } from "./office-locations";
 import { RestaurantWithDistance } from "./types";
 
 
-const API_BASE_URL = "http://localhost:4002/api";
+const API_BASE_URL = "https://api.techtalk.ansgar.app/api";
 
 /**
  * Fetches lunch places for a given location
@@ -11,7 +11,7 @@ const API_BASE_URL = "http://localhost:4002/api";
 export async function fetchLunchPlaces(location: OfficeLocation): Promise<RestaurantWithDistance[]> {
   try {
     console.log("Fetching lunch places for location:", location);
-    const url = new URL(`${API_BASE_URL}/nearest`, window.location.origin);
+    const url = new URL(`${API_BASE_URL}/nearest`);
     url.searchParams.append("lat", location.lat.toString());
     url.searchParams.append("lon", location.lon.toString());
     url.searchParams.append("count", "20");
