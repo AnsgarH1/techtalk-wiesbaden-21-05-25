@@ -19,19 +19,19 @@ layout: 'intro'
 
 
 <div class="mt-20">
-<p class="flex gap-2">
-
+<span class="flex gap-2 mt-3">
   <lucide-github class="opacity-50"/>
-  <div><a href="https://github.com/AnsgarH1" target="_blank">AnsgarH1</a></div>
-</p>
-<p class="flex gap-2">
+  <a href="https://github.com/AnsgarH1" target="_blank">AnsgarH1</a>
+</span>
+<span class="flex gap-2 mt-3">
   <lucide-linkedin class="opacity-50"/>
   <a href="https://www.linkedin.com/in/ansgar-hoyer/" target="_blank">Ansgar Hoyer</a>
-</p>
- 
+</span>
+<span class="flex gap-2 mt-3">
+  <lucide-presentation class="opacity-50"/> 
+  <a href="https://slides.techtalk.ansgar.app" target="_blank">slides.techtalk.ansgar.app</a>
+</span>
 </div>
-
-<lucide-presentation class="opacity-50"/> [slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
 
 
 <img src="./images/og_image.jpg" class="rounded-full aspect-square object-cover w-60 abs-tr mt-16 mr-12"/>
