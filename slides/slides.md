@@ -718,69 +718,24 @@ layout: two-cols-header
 
 ::left::
 
-<h3 class="pb-3">Building Blocks</h3>
 
 - **Reusable Components**
   - Self-contained UI pieces
   - Props for configuration
   - Events for communication
-- **Component Hierarchy**
-  - Parent-child relationships
-  - Nested components
-  - Component trees
+- **New Concepts**
+  - Client-side routing
+  - State management
+  - Virtual DOM
+- **Architecture Changes**
+  - Frontend-backend separation
+  - Rich client experiences
 
 ::right::
 
-<h3 class="pb-3">Benefits</h3>
+Example from the react docs:
 
-- **Code Reusability**
-  - DRY principle
-  - Consistent UI patterns
-- **Maintainability**
-  - Isolated functionality
-  - Easier testing
-  - Clear responsibilities
-- **Development Efficiency**
-  - Component libraries
-  - Faster UI development
-  - Team collaboration
-
----
-layout: two-cols-header
----
-
-# Single-Page Applications: New Paradigms
-
-::left::
-
-
-<h3 class="pb-3">New Concepts</h3>
-
-- **Client-side routing**
-  - Navigation without page reload
-  - History API manipulation
-- **State management**
-  - Redux, Vuex, MobX, Pinia, Zustand
-  - Complex client-side data handling
-- **Virtual DOM**
-  - Efficient UI updates
-  - DOM diffing algorithms
-
-
-::right::
-
-<h3 class="pb-3">Architecture Changes</h3>
-
-- **Frontend-backend separation**
-  - APIs instead of server templates
-  - JSON over HTML responses
-- **Rich client experiences**
-  - Animations and transitions
-  - Instant feedback
-- **New challenges**
-  - SEO difficulties
-  - Initial load performance
-  - JavaScript dependency
+<img src="https://react.dev/images/docs/s_thinking-in-react_ui_outline.png" />
 
 
 
@@ -1290,3 +1245,9 @@ Slides can be found at [https://slides.techtalk.ansgar.app](https://slides.techt
 - Slides: [https://slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
 - Lunchfinder API: [https://api.techtalk.ansgar.app/api/ui](https://api.techtalk.ansgar.app/api/ui)
 - Code, Slides and Demos: [https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25](https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25)
+
+---
+layout: end
+---
+
+<img src="./images/marvin.jpg"  class="rounded-full aspect-square object-cover w-10 abs-br mb-16 mr-12 animate-bounce" />
