@@ -1281,11 +1281,11 @@ layout: center
 
 # Thank you!
 
-Slides can be found at [https://techtalk-slides.ansgar.app](https://techtalk-slides.ansgar.app)
+Slides can be found at [https://slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
 
 - Demos:
-  - [http://demo-01.techtalk.ansgar.app](http://demo-01.techtalk.ansgar.app)
-  - [http://demo-02.techtalk.ansgar.app](http://demo-02.techtalk.ansgar.app)
+  - [https://demo-01.techtalk.ansgar.app](https://demo-01.techtalk.ansgar.app)
+  - [https://demo-02.techtalk.ansgar.app](https://demo-02.techtalk.ansgar.app)
 
 - Slides: [https://slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
 - Lunchfinder API: [https://api.techtalk.ansgar.app/api/ui](https://api.techtalk.ansgar.app/api/ui)
