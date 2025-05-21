@@ -31,7 +31,7 @@ layout: 'intro'
  
 </div>
 
-<lucide-presentation class="text-blue-500 text-2xl"/> Follow along on [slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
+<lucide-presentation class="opacity-50"/> [slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
 
 
 <img src="./images/og_image.jpg" class="rounded-full aspect-square object-cover w-60 abs-tr mt-16 mr-12"/>
@@ -288,10 +288,10 @@ No build tools, no frameworks*</p>
 
 
 <p class="pt-30">
-Code:  <a href="https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25/tree/main/demos/01-vanilla-js"> <lucide-github /> Demo1</a><br>
+Code:  <a href="https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25/tree/main/demos/01-vanilla-js" target="_blank"> <lucide-github /> Demo1</a><br>
 </p>
 <p>
-Web: <a href="https://demo-01.techtalk.ansgar.app"><lucide-external-link /> https://demo-01.techtalk.ansgar.app</a>
+Web: <a href="https://demo-01.techtalk.ansgar.app" target="_blank"><lucide-external-link /> https://demo-01.techtalk.ansgar.app</a>
 </p>
 
 ---
@@ -885,7 +885,7 @@ Client-side rendering with instant HMR
 
 ---
 layout: iframe-right
-url: https://vue-demo.techtalk.ansgar.app
+url: https://demo-02.techtalk.ansgar.app
 ---
 
 # Demo 2: Vue.js SPA
@@ -895,10 +895,10 @@ Fast development with Vite and Hot Module Replacement</p>
 
 
 <p class="pt-30">
-Code:  <a href="https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25/tree/main/demos/02-vite-spa"> <ri-github-line /> Demo2</a><br>
+Code:  <a href="https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25/tree/main/demos/02-vue-spa" target="_blank"> <ri-github-line /> Demo2</a><br>
 </p>
 <p>
-Web: <a href="https://techtalk.ansgar.app/demo02">techtalk.ansgar.app/demo02</a>
+Web: <a href="https://demo-02.techtalk.ansgar.app" target="_blank">demo-02.techtalk.ansgar.app</a>
 </p>
 
 
@@ -1038,11 +1038,9 @@ layout: two-cols-header
 - client "hydrates" the HTML with the JS bundle and continues as SPA
 
 <p class="pt-30">
-Code:  <a href="https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25/tree/main/demos/03-ssr-react"> <ri-github-line /> Demo3</a><br>
+Code:  <a href="https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25/tree/main/demos/03-ssr-react" target="_blank"> <ri-github-line /> Demo3</a><br>
 </p>
-<p>
-Web: <a href="https://techtalk.ansgar.app/demo03">techtalk.ansgar.app/demo03</a>
-</p>
+
 
 <div class="abs-br mb-30 mr-30 flex flex-col items-center">
 
@@ -1249,7 +1247,7 @@ layout: default
 
 - React Server Components (and new React Frameworks)
 - New JS Tools in Rust 
-- Other JS Frameworks (Nuxt, Solid-Start, SvelteKit, ...)
+- JS Fullstack Frameworks (Nuxt, Solid-Start, SvelteKit, ...)
 - The mess of all the JS Runtimes that currently exist
 - Testing setups
 - We somehow didn't even talk about CSS and all the other styling solutions
@@ -1264,17 +1262,31 @@ layout: section
 ---
 layout: center
 ---
+<div class="text-center">
 
 # 🤷🏼‍♂️🤷🏼‍♂️
+
+<v-click>
+<div class="text-left">
 
 - Modern tools like Bun and Vite simplify the tooling setup
 - new Libraries make building performant apps easier than ever
 - Infrastructure problems will eventually get solved as well
-
+</div>
+</v-click>
+</div>
 ---
 layout: center
 ---
 
 # Thank you!
 
-Slides can be found at [techtalk-slides.ansgar.app](https://techtalk-slides.ansgar.app)
+Slides can be found at [https://techtalk-slides.ansgar.app](https://techtalk-slides.ansgar.app)
+
+- Demos:
+  - [http://demo-01.techtalk.ansgar.app](http://demo-01.techtalk.ansgar.app)
+  - [http://demo-02.techtalk.ansgar.app](http://demo-02.techtalk.ansgar.app)
+
+- Slides: [https://slides.techtalk.ansgar.app](https://slides.techtalk.ansgar.app)
+- Lunchfinder API: [https://api.techtalk.ansgar.app/api/ui](https://api.techtalk.ansgar.app/api/ui)
+- Code, Slides and Demos: [https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25](https://github.com/AnsgarH1/techtalk-wiesbaden-21-05-25)

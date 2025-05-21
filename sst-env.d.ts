@@ -22,16 +22,8 @@ declare module "sst" {
       "type": "sst.aws.Function"
       "url": string
     }
-    "LunchfinderRouter": {
-      "type": "sst.aws.Router"
-      "url": string
-    }
     "Slides": {
       "type": "sst.aws.StaticSite"
-      "url": string
-    }
-    "SlidesRouter": {
-      "type": "sst.aws.Router"
       "url": string
     }
   }
